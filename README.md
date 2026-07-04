@@ -151,7 +151,10 @@ Each module contains:
 The HomeLab Log records important milestones throughout the project.
 
 Instead of publishing only completed work, this project documents the entire journey, including planning, implementation, challenges, improvements and lessons learned.
-2026-07-01  Repository created.
+
+### Timeline
+
+- **2026-07-01** – Repository created.
 
 
 ## License
