@@ -1,4 +1,4 @@
-# IT-HomeLab-Journey
+# IT HomeLab Journey
 Building a professional IT HomeLab from scratch while documenting every step.
 ---
 ## Project Overview
