@@ -10,7 +10,7 @@ The project focuses on designing and implementing a realistic enterprise environ
 
 Instead of publishing only the final results, every important decision, configuration, challenge and solution is documented step by step.
 
-The goal is to create an open technical reference for students, IT enthusiasts and system administrators while also serving as my professional portfolio.
+The project aims to become an open technical reference for students, IT enthusiasts and aspiring system administrators, while also serving as a professional portfolio that demonstrates practical skills and real-world experience.
 
 ---
 
@@ -18,31 +18,32 @@ The goal is to create an open technical reference for students, IT enthusiasts a
 
 ### Technical Goals
 
-- Learn modern infrastructure technologies...
-- Refresh existing knowledge...
-- Simulate an enterprise infrastructure...
-- Build an energy-efficient HomeLab...
+- Learn and experiment with modern system administration technologies in a realistic environment.
+- Refresh existing IT knowledge and combine it with modern infrastructure technologies and best practices.
+- Design, build and maintain a HomeLab that simulates a realistic enterprise IT infrastructure.
+- Build an affordable and energy-efficient HomeLab without compromising learning opportunities.
 
 ### Documentation & Career Goals
 
-- Document every stage...
-- Create an open technical reference...
-- Build a professional portfolio...
-- Explain technical decisions...
+- Document every stage of the project, from planning to deployment and maintenance.
+- Explain the reasoning behind technical decisions and compare alternative approaches whenever appropriate.
+- Record challenges encountered during the implementation process together with their solutions and lessons learned.
+- Create an open technical reference that can help others build their own HomeLab.
+- Build a professional portfolio that demonstrates practical experience, technical documentation skills and problem-solving abilities.
 
 ### Home Services Goals
 
-The HomeLab will also provide practical services for the household:
+The HomeLab is not only a learning platform but also a production environment that provides useful services for the household, including:
 
 - Personal Cloud Storage
 - Online Photo Archive
 - Home File Server
-- Automated Backups
-- VPN Remote Access
+- Automated Backup System
+- Secure Remote Access via VPN
 - Network-wide Ad Blocking
 - Document Management
-- Home Automation
-- Additional self-hosted services as the infrastructure evolves.
+- Home Automation Platform
+- Additional self-hosted services as the infrastructure evolves
 ---
 
 ## Technology Stack
