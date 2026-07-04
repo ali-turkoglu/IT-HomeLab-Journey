@@ -1,2 +1,2 @@
 # IT-HomeLab-Journey
-Ich baue mein professionelles HomeLab Schritt für Schritt auf.
+Building a professional IT HomeLab step by step.
