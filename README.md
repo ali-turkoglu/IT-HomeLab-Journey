@@ -15,6 +15,7 @@ Building a professional IT HomeLab from scratch while documenting every step.
 - [License](#license)
 ---
 
+
 ## Project Overview
 
 This repository documents the complete process of building a professional IT HomeLab from scratch.
@@ -25,6 +26,7 @@ Instead of publishing only the final results, every important decision, configur
 
 The project aims to become an open technical reference for students, IT enthusiasts and aspiring system administrators, while also serving as a professional portfolio that demonstrates practical skills and real-world experience.
 ...
+
 
 ## Project Goals
 
@@ -97,6 +99,7 @@ The HomeLab is not only a learning platform but also a production environment th
 - Git & GitHub
 ...
 
+
 ## Hardware
 
 The HomeLab is built using affordable and energy-efficient hardware that balances performance, power consumption and cost.
@@ -104,12 +107,14 @@ The HomeLab is built using affordable and energy-efficient hardware that balance
 The hardware selection process, comparison of different devices, purchasing decisions and performance evaluations are documented in detail in the Hardware section.
 ...
 
+
 ## HomeLab Architecture
 
 A detailed network and infrastructure diagram will be added as the project progresses.
 
 The architecture will evolve together with the HomeLab and every major design decision will be documented.
 ...
+
 
 ## Project Roadmap
 
@@ -122,6 +127,7 @@ The project is divided into multiple phases that gradually build a complete ente
 - Phase 5 – Monitoring & Backup
 - Phase 6 – Automation & Security
 ...
+
 
 ## Documentation
 
@@ -139,12 +145,14 @@ Each module contains:
 - References
 ...
 
+
 ## HomeLab Log
 
 The HomeLab Log records important milestones throughout the project.
 
 Instead of publishing only completed work, this project documents the entire journey, including planning, implementation, challenges, improvements and lessons learned.
----
+...
+
 
 ## License
 
