@@ -109,6 +109,9 @@ The documentation will grow together with the project.
 
 ## HomeLab Log
 
+Project milestones and important progress updates will be published throughout the development process.
+
+This section will serve as a chronological record of the HomeLab journey.
 ---
 
 ## License
