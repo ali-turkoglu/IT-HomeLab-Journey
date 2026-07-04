@@ -24,7 +24,7 @@ The project focuses on designing and implementing a realistic enterprise environ
 Instead of publishing only the final results, every important decision, configuration, challenge and solution is documented step by step.
 
 The project aims to become an open technical reference for students, IT enthusiasts and aspiring system administrators, while also serving as a professional portfolio that demonstrates practical skills and real-world experience.
----
+...
 
 ## Project Goals
 
@@ -56,7 +56,7 @@ The HomeLab is not only a learning platform but also a production environment th
 - Document Management
 - Home Automation Platform
 - Additional self-hosted services as the infrastructure evolves
----
+...
 
 ## Technology Stack
 
@@ -95,35 +95,33 @@ The HomeLab is not only a learning platform but also a production environment th
 ### Version Control
 
 - Git & GitHub
----
+...
 
 ## Hardware
 
 The HomeLab is built using affordable and energy-efficient hardware that balances performance, power consumption and cost.
 
 The hardware selection process, comparison of different devices, purchasing decisions and performance evaluations are documented in detail in the Hardware section.
----
+...
 
 ## HomeLab Architecture
 
 A detailed network and infrastructure diagram will be added as the project progresses.
 
 The architecture will evolve together with the HomeLab and every major design decision will be documented.
----
+...
 
 ## Project Roadmap
-Phase 1 – Hardware
 
-Phase 2 – Virtualization
+The project is divided into multiple phases that gradually build a complete enterprise-style HomeLab environment.
 
-Phase 3 – Windows Infrastructure
-
-Phase 4 – Linux
-
-Phase 5 – Monitoring
-
-Phase 6 – Automation
----
+- Phase 1 – Hardware Selection
+- Phase 2 – Virtualization (Proxmox VE)
+- Phase 3 – Windows Infrastructure
+- Phase 4 – Linux & Containers
+- Phase 5 – Monitoring & Backup
+- Phase 6 – Automation & Security
+...
 
 ## Documentation
 
@@ -139,7 +137,7 @@ Each module contains:
 - Troubleshooting
 - Lessons Learned
 - References
----
+...
 
 ## HomeLab Log
 
@@ -149,3 +147,6 @@ Instead of publishing only completed work, this project documents the entire jou
 ---
 
 ## License
+
+This project is licensed under the MIT License.
+See the LICENSE file for more information.
