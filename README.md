@@ -69,6 +69,9 @@ This project will include technologies commonly used in enterprise environments,
 
 ## Hardware
 
+The HomeLab is built using affordable and energy-efficient hardware that balances performance, power consumption and cost.
+
+The hardware selection process, comparison of different devices, purchasing decisions and performance evaluations are documented in detail in the Hardware section.
 ---
 
 ## HomeLab Architecture
