@@ -11,7 +11,6 @@ The project focuses on designing and implementing a realistic enterprise environ
 Instead of publishing only the final results, every important decision, configuration, challenge and solution is documented step by step.
 
 The project aims to become an open technical reference for students, IT enthusiasts and aspiring system administrators, while also serving as a professional portfolio that demonstrates practical skills and real-world experience.
-
 ---
 
 ## Project Goals
@@ -48,6 +47,24 @@ The HomeLab is not only a learning platform but also a production environment th
 
 ## Technology Stack
 
+This project will include technologies commonly used in enterprise environments, including:
+
+- Proxmox VE
+- Windows Server
+- Active Directory
+- DNS
+- DHCP
+- Group Policy
+- File Services
+- Ubuntu Server
+- Docker
+- PowerShell
+- Networking
+- Virtualization
+- Monitoring
+- Backup Solutions
+- Security
+- Git & GitHub
 ---
 
 ## Hardware
