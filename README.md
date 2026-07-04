@@ -83,6 +83,21 @@ The architecture will evolve together with the HomeLab and every major design de
 
 ## Project Roadmap
 
+- [ ] Hardware Selection
+- [ ] Proxmox Installation
+- [ ] Network Design
+- [ ] Windows Server
+- [ ] Active Directory
+- [ ] DNS
+- [ ] DHCP
+- [ ] Group Policy
+- [ ] File Services
+- [ ] Ubuntu Server
+- [ ] Docker
+- [ ] Monitoring
+- [ ] Backup
+- [ ] Security
+- [ ] Automation
 ---
 
 ## Documentation
