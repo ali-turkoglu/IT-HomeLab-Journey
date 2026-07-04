@@ -76,6 +76,9 @@ The hardware selection process, comparison of different devices, purchasing deci
 
 ## HomeLab Architecture
 
+A detailed network and infrastructure diagram will be added as the project progresses.
+
+The architecture will evolve together with the HomeLab and every major design decision will be documented.
 ---
 
 ## Project Roadmap
