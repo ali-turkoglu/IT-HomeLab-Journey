@@ -2,6 +2,19 @@
 Building a professional IT HomeLab from scratch while documenting every step.
 ---
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Project Goals](#project-goals)
+- [Technology Stack](#technology-stack)
+- [Hardware](#hardware)
+- [HomeLab Architecture](#homelab-architecture)
+- [Project Roadmap](#project-roadmap)
+- [Documentation](#documentation)
+- [HomeLab Log](#homelab-log)
+- [License](#license)
+---
+
 ## Project Overview
 
 This repository documents the complete process of building a professional IT HomeLab from scratch.
@@ -47,23 +60,40 @@ The HomeLab is not only a learning platform but also a production environment th
 
 ## Technology Stack
 
-This project will include technologies commonly used in enterprise environments, including:
+### Virtualization
 
 - Proxmox VE
+
+### Microsoft Infrastructure
+
 - Windows Server
 - Active Directory
 - DNS
 - DHCP
 - Group Policy
-- File Services
+
+### Linux
+
 - Ubuntu Server
+
+### Containers
+
 - Docker
+
+### Automation
+
 - PowerShell
+
+### Infrastructure
+
 - Networking
 - Virtualization
 - Monitoring
-- Backup Solutions
+- Backup
 - Security
+
+### Version Control
+
 - Git & GitHub
 ---
 
@@ -82,36 +112,40 @@ The architecture will evolve together with the HomeLab and every major design de
 ---
 
 ## Project Roadmap
+Phase 1 – Hardware
 
-- [ ] Hardware Selection
-- [ ] Proxmox Installation
-- [ ] Network Design
-- [ ] Windows Server
-- [ ] Active Directory
-- [ ] DNS
-- [ ] DHCP
-- [ ] Group Policy
-- [ ] File Services
-- [ ] Ubuntu Server
-- [ ] Docker
-- [ ] Monitoring
-- [ ] Backup
-- [ ] Security
-- [ ] Automation
+Phase 2 – Virtualization
+
+Phase 3 – Windows Infrastructure
+
+Phase 4 – Linux
+
+Phase 5 – Monitoring
+
+Phase 6 – Automation
 ---
 
 ## Documentation
 
-Every major component of the HomeLab will have its own dedicated documentation, including installation guides, configuration steps, troubleshooting notes, screenshots and lessons learned.
+The documentation is organized into individual modules.
 
-The documentation will grow together with the project.
+Each module contains:
+
+- Project objectives
+- Architecture
+- Installation steps
+- Configuration
+- Screenshots
+- Troubleshooting
+- Lessons Learned
+- References
 ---
 
 ## HomeLab Log
 
-Project milestones and important progress updates will be published throughout the development process.
+The HomeLab Log records important milestones throughout the project.
 
-This section will serve as a chronological record of the HomeLab journey.
+Instead of publishing only completed work, this project documents the entire journey, including planning, implementation, challenges, improvements and lessons learned.
 ---
 
 ## License
