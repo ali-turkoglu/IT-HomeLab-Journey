@@ -154,7 +154,7 @@ Instead of publishing only completed work, this project documents the entire jou
 
 ### Timeline
 
-- **2026-07-01** – Repository created.
+- **04-07-2026** – Repository created.
 
 
 ## License
