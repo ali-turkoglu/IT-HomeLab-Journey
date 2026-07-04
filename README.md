@@ -24,7 +24,7 @@ The project focuses on designing and implementing a realistic enterprise environ
 
 Instead of publishing only the final results, every important decision, configuration, challenge and solution is documented step by step.
 
-The project aims to become an open technical reference for students, IT enthusiasts and aspiring system administrators, while also serving as a professional portfolio that demonstrates practical skills and real-world experience.
+The project aims to become an open technical reference for students, IT enthusiasts and aspiring system administrators by documenting every stage of the journey. It also serves as a professional portfolio that demonstrates practical skills and real-world experience.
 
 
 
@@ -35,7 +35,7 @@ The project aims to become an open technical reference for students, IT enthusia
 - Learn and experiment with modern system administration technologies in a realistic environment.
 - Refresh existing IT knowledge and combine it with modern infrastructure technologies and best practices.
 - Design, build and maintain a HomeLab that simulates a realistic enterprise IT infrastructure.
-- Build an affordable and energy-efficient HomeLab without compromising learning opportunities.
+- Build an affordable and energy-efficient HomeLab that delivers a realistic enterprise learning experience.
 
 ### Documentation & Career Goals
 
@@ -131,7 +131,7 @@ The project is divided into multiple phases that gradually build a complete ente
 
 ## Documentation
 
-The documentation is organized into individual modules.
+The documentation is organized into individual modules. All modules follow the same documentation structure to ensure consistency throughout the project.
 
 Each module contains:
 
@@ -151,7 +151,7 @@ Each module contains:
 The HomeLab Log records important milestones throughout the project.
 
 Instead of publishing only completed work, this project documents the entire journey, including planning, implementation, challenges, improvements and lessons learned.
-
+2026-07-01  Repository created.
 
 
 ## License
