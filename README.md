@@ -102,6 +102,9 @@ The architecture will evolve together with the HomeLab and every major design de
 
 ## Documentation
 
+Every major component of the HomeLab will have its own dedicated documentation, including installation guides, configuration steps, troubleshooting notes, screenshots and lessons learned.
+
+The documentation will grow together with the project.
 ---
 
 ## HomeLab Log
