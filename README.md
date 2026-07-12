@@ -104,43 +104,59 @@ The HomeLab is not only a learning platform but also a production environment th
 
 The HomeLab is built using affordable and energy-efficient hardware that balances performance, power consumption and cost.
 
-The hardware selection process, comparison of different devices, purchasing decisions and performance evaluations are documented in detail in the Hardware section.
+The complete hardware selection process, device comparisons, purchasing decisions, and acceptance testing are documented in detail.
 
+➡️ **[Phase 1 – Hardware Selection & Procurement](docs/01-Hardware/)**
 
 
 ## HomeLab Architecture
 
-A detailed network and infrastructure diagram will be added as the project progresses.
+The architecture will evolve together with the HomeLab.
 
-The architecture will evolve together with the HomeLab and every major design decision will be documented.
+As new services are deployed, the architecture diagrams will be updated to reflect the current infrastructure.
 
+The final documentation will include:
+
+- Physical network topology
+- Virtual infrastructure
+- VM relationships
+- Network segmentation
+- Service dependencies
 
 
 ## Project Roadmap
 
-The project is divided into multiple phases that gradually build a complete enterprise-style HomeLab environment.
+The project is divided into multiple phases, gradually building a complete enterprise-style HomeLab environment.
 
-- Phase 1 – Hardware Selection
-- Phase 2 – Virtualization (Proxmox VE)
-- Phase 3 – Windows Infrastructure
-- Phase 4 – Linux & Containers
-- Phase 5 – Monitoring & Backup
-- Phase 6 – Automation & Security
-
+- ✅ [Phase 1 – Hardware Selection & Procurement](docs/01-Hardware/)
+- 🚧 [Phase 2 – Proxmox VE Installation](docs/02-Proxmox/)
+- ⏳ Phase 3 – Network Configuration
+- ⏳ Phase 4 – Windows Server Installation
+- ⏳ Phase 5 – Active Directory Domain Services
+- ⏳ Phase 6 – DNS
+- ⏳ Phase 7 – DHCP
+- ⏳ Phase 8 – File Server
+- ⏳ Phase 9 – Linux Server
+- ⏳ Phase 10 – Docker
+- ⏳ Phase 11 – Monitoring
+- ⏳ Phase 12 – Backup & Recovery
+- ⏳ Phase 13 – PowerShell Automation
+- ⏳ Phase 14 – Security Hardening
 
 
 ## Documentation
 
-The documentation is organized into individual modules. All modules follow the same documentation structure to ensure consistency throughout the project.
+The documentation is organized into individual phases. Each phase focuses on a specific technology or project milestone and follows the same documentation structure to ensure consistency throughout the repository.
 
-Each module contains:
+Each phase includes:
 
-- Project objectives
-- Architecture
-- Installation steps
+- Overview
+- Objectives
+- Planning
+- Implementation
 - Configuration
 - Screenshots
-- Troubleshooting
+- Verification
 - Lessons Learned
 - References
   
@@ -155,6 +171,7 @@ Instead of publishing only completed work, this project documents the entire jou
 ### Timeline
 
 - **04-07-2026** – Repository created.
+- **12-07-2026** – Phase 1 (Hardware Selection & Procurement) completed.
 
 
 ## License
