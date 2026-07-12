@@ -170,7 +170,7 @@ The SSD matched the specifications provided by the seller and showed no signs of
 
 | CrystalDiskInfo |
 |-----------------|
-| ![](images/crystaldiskinfo.jpg) |
+| ![](images/CrystalDiskInfo-photo.jpg) |
 
 > **Why CrystalDiskInfo?**
 >
