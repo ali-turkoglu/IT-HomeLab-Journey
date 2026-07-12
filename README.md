@@ -106,7 +106,7 @@ The HomeLab is built using affordable and energy-efficient hardware that balance
 
 The complete hardware selection process, device comparisons, purchasing decisions, and acceptance testing are documented in detail.
 
-➡️ **[Phase 1 – Hardware Selection & Procurement](docs/01-Hardware/Readme.md)**
+➡️ **[Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/Readme.md)**
 
 
 ## HomeLab Architecture
@@ -128,8 +128,8 @@ The final documentation will include:
 
 The project is divided into multiple phases, gradually building a complete enterprise-style HomeLab environment.
 
-- ✅ [Phase 1 – Hardware Selection & Procurement](docs/01-Hardware/Readme.md)
-- 🚧 [Phase 2 – Proxmox VE Installation](docs/02-Proxmox/Readme.md)
+- ✅ [Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/Readme.md)
+- 🚧 [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/Readme.md)
 - ⏳ Phase 3 – Network Configuration
 - ⏳ Phase 4 – Windows Server Installation
 - ⏳ Phase 5 – Active Directory Domain Services
