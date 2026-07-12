@@ -1,4 +1,4 @@
-# Phase 1 – Hardware Selection & Procurement
+# 1 – Hardware Selection & Procurement
 
 > **Status:** ✅ Completed
 
@@ -14,7 +14,7 @@ Rather than buying the first device that looked attractive, I wanted to go throu
 
 ---
 
-# Budget & Requirements
+## Budget & Requirements
 
 Before I started searching, I set myself a strict maximum budget of **250 €**.
 
@@ -35,7 +35,7 @@ This prevented me from making impulsive buying decisions whenever I saw an attra
 
 ---
 
-# Market Research
+## Market Research
 
 For about a week, I monitored the German second-hand market on **Kleinanzeigen**.
 
@@ -54,7 +54,7 @@ Whenever I found a promising device, I contacted the seller before making any de
 
 ---
 
-# Communicating with Sellers
+## Communicating with Sellers
 
 Before buying any second-hand computer, I always tried to collect as much technical information as possible.
 
@@ -73,7 +73,7 @@ I noticed that honest sellers usually had no problem answering these questions o
 
 ---
 
-# Learning to Avoid Risks
+## Learning to Avoid Risks
 
 This phase also taught me several important lessons.
 
@@ -89,9 +89,9 @@ That experience confirmed that being patient is much safer than rushing into a p
 
 ---
 
-# Final Decision
+## Final Decision
 
-After comparing multiple Mini PCs and talking to several sellers, I finally decided to purchase the following system:
+After comparing several Mini PCs and communicating with different sellers, I finally decided to purchase the following system.
 
 | Component | Specification |
 |-----------|---------------|
@@ -102,60 +102,83 @@ After comparing multiple Mini PCs and talking to several sellers, I finally deci
 | Network | Dual Gigabit Ethernet |
 | Purchase Price | **200 €** |
 
-I purchased the Mini PC using **Kleinanzeigen Buyer Protection (Sicher bezahlen)** so that the payment would remain protected until I had verified that everything matched the seller's description.
+I purchased the Mini PC using **Kleinanzeigen Buyer Protection ("Sicher bezahlen")**, which meant the payment would only be released after I had received the device and confirmed that it matched the seller's description.
 
-*(PHOTO)*
+### Seller Photos
 
----
-
-# Delivery
-
-The Mini PC arrived about four days later.
-
-The packaging was excellent and the device was well protected during shipping.
-
-*(PHOTO)*
-
-Because my long-term goal is to manage this server remotely, I didn't buy a dedicated keyboard, mouse, or monitor.
-
-Instead, I temporarily connected the keyboard, mouse, and monitor that I normally use with my MacBook.
+| Front View | Rear Ports | Product Label |
+|------------|------------|---------------|
+| ![](images/seller-photo-top.avif) | ![](images/seller-photo-rear-ports.avif) | ![](images/seller-photo-box.avif) |
 
 ---
 
-# Hardware Acceptance Test
+## Delivery
 
-Before doing anything else, I wanted to verify that the hardware really matched the seller's description.
+The Mini PC arrived about four days after I placed the order.
 
-The first thing I did was enter the BIOS and verify:
+The device arrived securely packaged and well protected during shipping.
 
-- CPU
-- RAM
-- SSD
+| Shipping Box | Unboxing | Mini PC & Accessories |
+|--------------|-----------|-----------------------|
+| ![](images/package-delivered.png) | ![](images/package-opened.png) | ![](images/package-contents.png) |
 
-Everything matched the advertised specifications.
+Since my long-term goal is to manage this HomeLab remotely, I didn't buy a dedicated monitor, keyboard, or mouse for the Mini PC.
 
-*(BIOS PHOTO.)*
-
----
-
-# Windows & SSD Verification
-
-The Mini PC came with a reset Windows installation.
-
-After completing the initial Windows setup, I installed **CrystalDiskInfo** to check the SSD.
-
-The results were excellent.
-
-- SSD Health: Good
-- Power-On Hours: 23
-- Power Cycles: 39
-- No bad blocks detected
-
-*(CrystalDiskInfo PHOTO.)*
+For the initial setup and hardware verification, I simply used the monitor, keyboard, and mouse that I normally use with my MacBook.
 
 ---
 
-# Functional Testing
+## Initial Hardware Verification
+
+Before installing any software, I entered the BIOS to verify that the installed hardware matched the seller's description.
+
+During this initial check, I verified:
+
+- BIOS version
+- CPU model
+- Installed memory
+- Memory frequency
+- Boot mode (UEFI)
+- Boot device
+
+The BIOS information matched the expected CPU and memory configuration, so I continued with the operating system setup.
+
+| BIOS Information | Boot Configuration |
+|------------------|--------------------|
+| ![](images/bios-main.jpg) | ![](images/bios-boot.jpg) |
+
+> **Note**
+>
+> At this stage, I only verified the installed hardware. The SSD health and overall system stability were tested later from within Windows before approving the purchase.
+
+---
+
+## SSD Health Check
+
+After completing the Windows setup, I installed **CrystalDiskInfo** to check the condition of the SSD before approving the purchase.
+
+Since this was a second-hand Mini PC, I wanted to make sure that the SSD was healthy and free from any obvious signs of excessive wear or hardware issues.
+
+The results showed:
+
+- SSD health status: **Good**
+- Temperature: **33 °C**
+- No SMART warnings were reported
+- SMART status: **Healthy**
+
+The SSD matched the specifications provided by the seller and showed no signs of hardware problems, giving me enough confidence to proceed with the purchase.
+
+| CrystalDiskInfo |
+|-----------------|
+| ![](images/crystaldiskinfo.jpg) |
+
+> **Why CrystalDiskInfo?**
+>
+> CrystalDiskInfo provides a quick overview of an SSD's SMART information, including its health status, temperature, and potential hardware issues. It is one of the first tools I use when evaluating a second-hand computer.
+
+---
+
+## Functional Testing
 
 Before confirming the purchase, I wanted to make sure that the system was stable.
 
@@ -169,13 +192,15 @@ I performed several basic tests, including:
 
 The Mini PC remained quiet, responsive, and completely stable throughout the testing process.
 
+The tests were not intended to benchmark performance, but simply to verify that the system behaved normally under a light real-world workload.
+
 Once I was satisfied that everything was working correctly, I confirmed the delivery in Kleinanzeigen and released the payment to the seller.
 
 This officially completed the procurement phase.
 
 ---
 
-# Lessons Learned
+## Lessons Learned
 
 This first phase taught me several valuable lessons.
 
@@ -185,12 +210,23 @@ This first phase taught me several valuable lessons.
 - BIOS screenshots and CrystalDiskInfo are extremely useful.
 - Always use Buyer Protection whenever possible.
 - Verify the hardware yourself before trusting the seller's description.
+- Trust your own verification more than the seller's description.
 - A little patience can save both money and unnecessary problems.
 
 ---
 
-The hardware procurement phase was successfully completed.
+## Personal Note
 
-The Mini PC is now ready for the next step:
+This HomeLab is not intended to be built in a single day.
+
+One of my goals is to document every important decision, every mistake, and every lesson I learn along the way.
+
+I hope this documentation helps anyone who wants to build a similar HomeLab without spending a fortune.
+
+---
+
+## Next Step
+
+With the hardware verified and the purchase completed, the Mini PC was ready for the next stage of the project.
 
 ➡️ **Installing Proxmox VE**
