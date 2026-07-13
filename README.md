@@ -172,6 +172,7 @@ Instead of publishing only completed work, this project documents the entire jou
 
 - **04-07-2026** – Repository created.
 - **12-07-2026** – Phase 1 (Hardware Selection & Procurement) completed.
+- **13-07-2026** – Phase 2 (Proxmox VE Installation) completed.
 
 
 ## License
