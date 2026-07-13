@@ -6,7 +6,7 @@ I chose Proxmox VE because it is free, open source, and easy to use. It has a si
 
 A friend first recommended Proxmox VE to me. After comparing different platforms, I decided that it was the best choice for my HomeLab.
 
-# Installing Proxmox VE 
+# Installing Proxmox VE
 
 ## 1. Download Proxmox VE
 
@@ -14,9 +14,9 @@ Download the latest Proxmox VE ISO image from the official website.
 
 🔗 https://www.proxmox.com/en/downloads
 
-| Proxmox Website | Proxmox ISO Download | 
+| Proxmox Website | Proxmox ISO Download |
 |-----------------|----------------------|
-| ![](images/proxmox-website.png) | ![](images/proxmox-download.png) 
+| ![](images/proxmox-website.png) | ![](images/proxmox-download.png) |
 
 ---
 
@@ -34,7 +34,7 @@ Official website:
 
 | Website | Download | Application |
 |---------|----------|-------------|
-| ![](images/balenaEtcher%20Website.png) | ![](images/balenaEtcher-download.png) | ![](images/balenaEtcher-app.png) |
+| ![](images/balenaEtcher-website.png) | ![](images/balenaEtcher-download.png) | ![](images/balenaEtcher-app.png) |
 
 > **Note**
 >
@@ -76,7 +76,7 @@ Before installing Proxmox VE, check the following BIOS settings:
 
 | Enable Virtualization | Set USB as First Boot Device |
 |:---------------------:|:----------------------------:|
-| <img src="images/bios-advanced.jpg" width="420"> | <img src="images/bios-boot.jpg" width="420"> |
+| <img src="images/bios-advanced.jpg" width="420"> | <img src="images/bios-boot.jpeg" width="420"> |
 | **SVM Mode: Enabled** | **UEFI boot with USB as the first boot device** |
 
 > **Note**
@@ -93,17 +93,9 @@ Boot the Mini PC from the USB drive and start the Proxmox VE installer.
 
 Follow the installation wizard and complete each step.
 
-| Welcome | Select Installation Disk |
-|:--------:|:------------------------:|
-| <img src="images/proxmox-install-01-welcome.jpg" width="420"> | <img src="images/proxmox-install-02-disk.jpg" width="420"> |
-
-| Location and Keyboard | Root Password |
-|:---------------------:|:-------------:|
-| <img src="images/proxmox-install-03-location.jpg" width="420"> | <img src="images/proxmox-install-04-password.jpg" width="420"> |
-
-| Network Configuration | Installation Summary |
-|:---------------------:|:--------------------:|
-| <img src="images/proxmox-install-05-network.jpg" width="420"> | <img src="images/proxmox-install-06-summary.jpg" width="420"> |
+| Welcome | Network Configuration | Root Password |
+|:-------:|:---------------------:|:-------------:|
+| <img src="images/welcome-screen.jpg" width="280"> | <img src="images/network-configuration.jpg" width="280"> | <img src="images/proxmox-install-04-password.jpg" width="280"> |
 
 ### Installation Notes
 
@@ -118,7 +110,7 @@ Follow the installation wizard and complete each step.
 > **My Configuration**
 >
 > - Hostname: `proxmox.homelab.local`
-> - Statik IP Address: `192.168.x.10/24`
+> - Static IP Address: `192.168.x.10/24`
 > - Gateway: `192.168.x.1`
 > - DNS Server: `192.168.x.1`
 
@@ -132,7 +124,9 @@ Open the URL in a web browser:
 
 `https://192.168.x.10:8006`
 
-The browser will show a security warning because Proxmox uses a self-signed SSL certificate. Click **Advanced** and continue to the website and log in with the **root** account and the password you created during the installation.
+The browser will show a security warning because Proxmox uses a self-signed SSL certificate.
+
+Click **Advanced**, continue to the website, and log in with the **root** account and the password you created during the installation.
 
 | Console | Browser Security Warning |
 |:-------:|:------------------------:|
@@ -142,6 +136,8 @@ The browser will show a security warning because Proxmox uses a self-signed SSL 
 |:------------:|:-----------------:|
 | <img src="images/login-screen.png" width="420"> | <img src="images/dashboard.png" width="420"> |
 
-The Proxmox VE installation is now complete.
+---
 
-In the next section, I will configure Proxmox VE and prepare the server for my HomeLab.
+The basic Proxmox VE installation is now complete.
+
+In the next section, I will configure Proxmox VE, fix the default package repository, update the system, and prepare the server for the next steps of this HomeLab project.
