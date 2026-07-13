@@ -93,9 +93,9 @@ Boot the Mini PC from the USB drive and start the Proxmox VE installer.
 
 Follow the installation wizard and complete each step.
 
-| Welcome | Network Configuration | Root Password |
-|:-------:|:---------------------:|:-------------:|
-| <img src="images/welcome-screen.jpg" width="280"> | <img src="images/network-configuration.jpg" width="280"> | <img src="images/proxmox-install-04-password.jpg" width="280"> |
+| Welcome | Network Configuration |
+|:-------:|:---------------------:|
+| <img src="images/welcome-screen.jpg" width="420"> | <img src="images/network-configuration.jpg" width="420"> |
 
 ### Installation Notes
 
