@@ -1,5 +1,12 @@
 # IT HomeLab Journey
+
 Building a professional IT HomeLab from scratch while documenting every step.
+
+> [!TIP]
+> **New to this project?**
+>
+> This repository is designed to be read from beginning to end.
+> Each phase builds on the previous one, so I recommend following the documentation in the order shown in the **Project Roadmap** below.
 ---
 
 ## Table of Contents
@@ -129,7 +136,7 @@ The final documentation will include:
 The project is divided into multiple phases, gradually building a complete enterprise-style HomeLab environment.
 
 - ✅ [Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/Readme.md)
-- ✅ [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/Readme.md)
+- 🚧 [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/Readme.md)
 - ⏳ Phase 3 – Network Configuration
 - ⏳ Phase 4 – Windows Server Installation
 - ⏳ Phase 5 – Active Directory Domain Services
@@ -161,7 +168,6 @@ Each phase includes:
 - References
   
 
-
 ## HomeLab Log
 
 The HomeLab Log records important milestones throughout the project.
@@ -172,10 +178,11 @@ Instead of publishing only completed work, this project documents the entire jou
 
 - **04-07-2026** – Repository created.
 - **12-07-2026** – Phase 1 (Hardware Selection & Procurement) completed.
-- **13-07-2026** – Phase 2 (Proxmox VE Installation) completed.
 
 
 ## License
 
 This project is licensed under the MIT License.
 See the LICENSE file for more information.
+
+
