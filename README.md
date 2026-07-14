@@ -136,9 +136,9 @@ The final documentation will include:
 The project is divided into multiple phases, gradually building a complete enterprise-style HomeLab environment.
 
 - ✅ [Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/Readme.md)
-- 🚧 [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/Readme.md)
-- ⏳ Phase 3 – Network Configuration
-- ⏳ Phase 4 – Windows Server Installation
+- ✅ [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/Readme.md)
+- ✅ [Phase 3 – Network Configuration](docs/3-Proxmox-Configuration/Readme.md)
+- 🚧 Phase 4 – Windows Server Installation
 - ⏳ Phase 5 – Active Directory Domain Services
 - ⏳ Phase 6 – DNS
 - ⏳ Phase 7 – DHCP
