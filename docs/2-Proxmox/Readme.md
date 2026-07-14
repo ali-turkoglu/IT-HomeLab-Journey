@@ -141,3 +141,11 @@ Click **Advanced**, continue to the website, and log in with the **root** accoun
 The basic Proxmox VE installation is now complete.
 
 In the next section, I will configure Proxmox VE, fix the default package repository, update the system, and prepare the server for the next steps of this HomeLab project.
+
+---
+
+## 📚 Navigation
+
+| ⬅️ Previous | 🏠 Main Page | ➡️ Next |
+|-------------|---------|----------|
+| [Hardware Selection & Procurement](../1-Hardware/Readme.md) | [Main README](../../README.md) | [Proxmox Initial Configuration](../3-Proxmox-Configuration/Readme.md) |
