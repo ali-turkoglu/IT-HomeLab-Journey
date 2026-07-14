@@ -55,7 +55,7 @@ This happens because Proxmox VE enables the **Enterprise Repository** by default
 
 | Update Error | Enterprise Repository |
 |:------------:|:---------------------:|
-| ![](images/01-update-error.jpg) | ![](images/02-enterprise-warning.jpg) |
+| ![](images/1-update-error-message.jpeg) | ![](images/2-repositories.jpeg) |
 
 ---
 
@@ -73,7 +73,7 @@ This repository is officially provided by Proxmox and is commonly used in HomeLa
 
 | Add No-Subscription Repository | Repository Configuration Complete |
 |:------------------------------:|:---------------------------------:|
-| ![](images/03-no-subscription.jpg) | ![](images/04-repo-fixed.jpg) |
+| ![](images/3-repositories-disables.jpeg) | ![](images/4-repository-added.jpeg) |
 
 ---
 
@@ -85,7 +85,7 @@ This time, the refresh completed successfully without any errors.
 
 | Package Database Refresh |
 |:------------------------:|
-| ![](images/05-refresh-ok.png) |
+| ![](images/5-repositories-updated.png) |
 
 Next, I upgraded all installed packages from the Proxmox shell.
 
@@ -102,13 +102,13 @@ After the installation finished, Proxmox recommended rebooting the server to act
 
 | System Upgrade | Upgrade Completed |
 |:--------------:|:----------------:|
-| ![](images/06-dist-upgrade.png) | ![](images/07-upgrade-finished.png) |
+| ![](images/7-upgrade-screen.png) | ![](images/8-upgrade-completed.png) |
 
 After the reboot, the **Updates** page confirmed that no updates were available.
 
 | System Up-to-Date |
 |:-----------------:|
-| ![](images/08-updated.png) |
+| ![](images/9-daschboard-after-upgraded.png) |
 
 ---
 
@@ -127,7 +127,7 @@ The output confirmed that the latest Proxmox version and kernel were active.
 
 | Version Verification |
 |:--------------------:|
-| ![](images/09-pveversion.png) |
+| ![](images/10-shell-after-upgraded.png) |
 
 ---
 
@@ -156,7 +156,7 @@ cat /etc/resolv.conf
 
 | Network Configuration (GUI) | Network Verification (CLI) |
 |:---------------------------:|:--------------------------:|
-| ![](images/10-network-gui.png) | ![](images/11-network-cli.png) |
+| ![](images/11-networks.png) | ![](images/12-shell-commands-control.png) |
 
 Everything matched my planned network configuration.
 
@@ -195,7 +195,7 @@ Because of this experience, the Proxmox storage structure felt familiar and easy
 
 | Storage Overview | ISO Images | VM Disks |
 |:----------------:|:----------:|:--------:|
-| ![](images/12-storage-overview.png) | ![](images/13-storage-local.png) | ![](images/14-storage-lvm.png) |
+| ![](images/13-storage.png) | ![](images/15-local-iso.png) | ![](images/17-local-lvm-vmDisks.png) |
 
 ---
 
