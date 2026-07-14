@@ -229,4 +229,10 @@ I hope this documentation helps anyone who wants to build a similar HomeLab with
 
 With the hardware verified and the purchase completed, the Mini PC was ready for the next stage of the project.
 
-➡️ **Installing Proxmox VE**
+---
+
+## 📚 Navigation
+
+| ⬅️ Previous | 🏠 Main Page | ➡️ Next |
+|-------------|-------------|----------|
+| [Project Overview](../../README.md) | [Home](../../README.md) | [Phase 2 – Proxmox VE Installation](../2-Proxmox/Readme.md) |
