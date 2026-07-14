@@ -176,10 +176,11 @@ Instead of publishing only completed work, this project documents the entire jou
 
 ## Timeline
 
-- **04-07-2026** – GitHub repository created.
-- **12-07-2026** – Phase 1: Hardware Selection & Procurement completed.
-- **13-07-2026** – Phase 2: Proxmox VE Installation completed.
-- **14-07-2026** – Phase 3: Proxmox Post-Installation Configuration completed.
+04-07-2026 – GitHub repository created.
+09-07-2026 – HomeLab hardware purchased.
+12-07-2026 – Phase 1: Hardware Selection & Procurement completed.
+13-07-2026 – Phase 2: Proxmox VE Installation completed.
+14-07-2026 – Phase 3: Proxmox Post-Installation Configuration completed.
 
 
 ## License
