@@ -73,7 +73,7 @@ This repository is officially provided by Proxmox and is commonly used in HomeLa
 
 | Add No-Subscription Repository | Repository Configuration Complete |
 |:------------------------------:|:---------------------------------:|
-| ![](images/3-repositories-disables.jpeg) | ![](images/4-repository-added.jpeg) |
+| ![](images/3-repositories-disables.jpg) | ![](images/4-repository-added.jpg) |
 
 ---
 
