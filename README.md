@@ -159,8 +159,8 @@ The project is organized into multiple phases that gradually build a complete en
 
 ### Microsoft Infrastructure
 
-- 🚧 Phase 4 – Windows Server Installation
-- ⏳ Phase 5 – Active Directory Domain Services
+- ✅ [Phase 4 – Windows Server Installation](../4-Windows-Server-Installation/README.md)
+- 🚧 Phase 5 – Active Directory Domain Services
 - ⏳ Phase 6 – DNS
 - ⏳ Phase 7 – DHCP
 - ⏳ Phase 8 – Group Policy
