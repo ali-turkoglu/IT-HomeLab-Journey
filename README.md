@@ -27,7 +27,7 @@ Building a professional IT HomeLab from scratch while documenting every step.
 
 This repository documents the complete process of building a professional IT HomeLab from scratch.
 
-The project focuses on designing and implementing a realistic enterprise environment using virtualization, Windows Server, Linux, networking and automation technologies.
+The project focuses on designing and implementing a realistic enterprise environment using virtualization, Microsoft infrastructure, Linux, networking, containers, automation, monitoring, security and cloud technologies.
 
 Instead of publishing only the final results, every important decision, configuration, challenge and solution is documented step by step.
 
@@ -43,6 +43,7 @@ The project aims to become an open technical reference for students, IT enthusia
 - Refresh existing IT knowledge and combine it with modern infrastructure technologies and best practices.
 - Design, build and maintain a HomeLab that simulates a realistic enterprise IT infrastructure.
 - Build an affordable and energy-efficient HomeLab that delivers a realistic enterprise learning experience.
+- Simulate real-world enterprise IT scenarios commonly found in modern organizations.
 
 ### Documentation & Career Goals
 
@@ -80,26 +81,39 @@ The HomeLab is not only a learning platform but also a production environment th
 - DNS
 - DHCP
 - Group Policy
+- File Server
+- Print Server
+- WSUS
+- Windows Server Backup
 
 ### Linux
 
 - Ubuntu Server
+- Bash
 
 ### Containers
 
 - Docker
+- Portainer
 
 ### Automation
 
 - PowerShell
+- Bash
 
 ### Infrastructure
 
 - Networking
 - Virtualization
-- Monitoring
 - Backup
+- Monitoring
 - Security
+- pfSense
+
+### Cloud & Identity
+
+- Microsoft Entra ID
+- Microsoft 365
 
 ### Version Control
 
@@ -126,29 +140,62 @@ The final documentation will include:
 
 - Physical network topology
 - Virtual infrastructure
-- VM relationships
+- Active Directory architecture
 - Network segmentation
 - Service dependencies
+- Backup strategy
+- Security architecture
 
 
 ## Project Roadmap
 
-The project is divided into multiple phases, gradually building a complete enterprise-style HomeLab environment.
+The project is organized into multiple phases that gradually build a complete enterprise-style HomeLab.
+
+### Foundation
 
 - ✅ [Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/Readme.md)
 - ✅ [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/Readme.md)
-- ✅ [Phase 3 – Network Configuration](docs/3-Proxmox-Configuration/Readme.md)
+- ✅ [Phase 3 – Proxmox Post-Installation Configuration](docs/3-Proxmox-Configuration/Readme.md)
+
+### Microsoft Infrastructure
+
 - 🚧 Phase 4 – Windows Server Installation
 - ⏳ Phase 5 – Active Directory Domain Services
 - ⏳ Phase 6 – DNS
 - ⏳ Phase 7 – DHCP
-- ⏳ Phase 8 – File Server
-- ⏳ Phase 9 – Linux Server
-- ⏳ Phase 10 – Docker
-- ⏳ Phase 11 – Monitoring
-- ⏳ Phase 12 – Backup & Recovery
-- ⏳ Phase 13 – PowerShell Automation
-- ⏳ Phase 14 – Security Hardening
+- ⏳ Phase 8 – Group Policy
+- ⏳ Phase 9 – File Server & NTFS Permissions
+- ⏳ Phase 10 – Print Server
+- ⏳ Phase 11 – Windows Server Backup
+- ⏳ Phase 12 – WSUS (Windows Server Update Services)
+
+### Linux & Containers
+
+- ⏳ Phase 13 – Ubuntu Server
+- ⏳ Phase 14 – Docker & Portainer
+
+### Monitoring & Automation
+
+- ⏳ Phase 15 – Zabbix Monitoring
+- ⏳ Phase 16 – PowerShell Automation
+- ⏳ Phase 17 – Bash Scripting
+
+### Security
+
+- ⏳ Phase 18 – Windows Security Hardening
+- ⏳ Phase 19 – pfSense Firewall
+
+### Cloud & Identity
+
+- ⏳ Phase 20 – Microsoft Entra ID
+- ⏳ Phase 21 – Microsoft 365 Integration
+
+### Enterprise Scenarios
+
+- ⏳ Phase 22 – User & Group Management
+- ⏳ Phase 23 – File Sharing & Permissions
+- ⏳ Phase 24 – Backup & Disaster Recovery
+- ⏳ Phase 25 – Enterprise Troubleshooting Scenarios
 
 
 ## Documentation
@@ -160,12 +207,13 @@ Each phase includes:
 - Overview
 - Objectives
 - Planning
+- Architecture
 - Implementation
 - Configuration
 - Screenshots
 - Verification
 - Lessons Learned
-- References
+- Navigation to the previous and next project phases
   
 
 ## HomeLab Log
@@ -187,5 +235,4 @@ Instead of publishing only completed work, this project documents the entire jou
 
 This project is licensed under the MIT License.
 See the LICENSE file for more information.
-
 
