@@ -148,4 +148,4 @@ In the next section, I will configure Proxmox VE, fix the default package reposi
 
 | ⬅️ Previous | 🏠 Main Page | ➡️ Next |
 |-------------|---------|----------|
-| [Hardware Selection & Procurement](../1-Hardware/Readme.md) | [Main README](../../README.md) | [Proxmox Initial Configuration](../3-Proxmox-Configuration/Readme.md) |
+| [Hardware Selection & Procurement](../1-Hardware/README.md) | [Main README](../../README.md) | [Proxmox Initial Configuration](../3-Proxmox-Configuration/README.md) |
