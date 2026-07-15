@@ -426,4 +426,4 @@ The next step is to promote this server to the first Domain Controller.
 
 | Previous | Home | Next |
 |----------|------|------|
-| ⬅️ [Phase 3: Proxmox Configuration](../3-Proxmox-Configuration/Readme.md) | 🏠 [Home](../../README.md) | ➡️ Phase 5: Active Directory Domain Services (Coming Soon) |
+| ⬅️ [Phase 3: Proxmox Configuration](../3-Proxmox-Configuration/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 5: Active Directory Domain Services (Coming Soon) |
