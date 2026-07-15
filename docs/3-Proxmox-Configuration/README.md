@@ -242,6 +242,6 @@ The next phase will focus on creating the first virtual machine by installing Wi
 
 | Previous | Home | Next |
 |----------|------|------|
-| ⬅️ [Proxmox Installation](../2-Proxmox/Readme.md) | 🏠 [Home](../../README.md) | ➡️ [Windows Server Installation](../4-Windows-Server/Readme.md) |
+| ⬅️ [Proxmox Installation](../2-Proxmox/README.md) | 🏠 [Home](../../README.md) | ➡️ [Windows Server Installation](../4-Windows-Server/README.md) |
 
 
