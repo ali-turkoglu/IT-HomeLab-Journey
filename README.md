@@ -127,7 +127,7 @@ The HomeLab is built using affordable and energy-efficient hardware that balance
 
 The complete hardware selection process, device comparisons, purchasing decisions, and acceptance testing are documented in detail.
 
-➡️ **[Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/Readme.md)**
+➡️ **[Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/README.md)**
 
 
 ## HomeLab Architecture
@@ -153,9 +153,9 @@ The project is organized into multiple phases that gradually build a complete en
 
 ### Foundation
 
-- ✅ [Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/Readme.md)
-- ✅ [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/Readme.md)
-- ✅ [Phase 3 – Proxmox Post-Installation Configuration](docs/3-Proxmox-Configuration/Readme.md)
+- ✅ [Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/README.md)
+- ✅ [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/README.md)
+- ✅ [Phase 3 – Proxmox Post-Installation Configuration](docs/3-Proxmox-Configuration/README.md)
 
 ### Microsoft Infrastructure
 
