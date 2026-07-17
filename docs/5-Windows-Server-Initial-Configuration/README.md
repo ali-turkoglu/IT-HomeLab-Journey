@@ -84,10 +84,6 @@ I configured the correct local time zone for the server.
 
 Accurate time settings are important because Active Directory relies on Kerberos authentication.
 
-| Time Zone Settings |
-|:------------------:|
-| ![](images/11-time-zone-settings.png) |
-
 ---
 
 ### 6. Verify Network Connectivity
