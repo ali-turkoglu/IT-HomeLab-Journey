@@ -1,5 +1,7 @@
 # Windows Server 2022 Installation
 
+> **Status:** ✅ Completed
+
 ## Project Overview
 
 In this phase, I installed **Windows Server 2022** on my Proxmox server.
@@ -426,4 +428,4 @@ The next step is to promote this server to the first Domain Controller.
 
 | Previous | Home | Next |
 |----------|------|------|
-| ⬅️ [Phase 3: Proxmox Configuration](../3-Proxmox-Configuration/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 5: Active Directory Domain Services (Coming Soon) |
+| ⬅️ [Proxmox Configuration](../3-Proxmox-Configuration/README.md) | 🏠 [Home](../../README.md) | ➡️ [Windows Server Initial Configuration](../5-Windows-Server-Initial-Configuration/README.md) |
