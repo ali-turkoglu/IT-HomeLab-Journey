@@ -62,7 +62,7 @@ Since this server will become the Active Directory Domain Controller and DNS Ser
 
 | IPv4 Configuration | Network Verification |
 |:------------------:|:--------------------:|
-| ![](images/07-static-ip-settings.png) | ![](images/08-network-configuration.png) |
+| ![](images/07-static-ip-settings.png) | ![](images/08-local-server-overview.png) |
 
 ---
 
@@ -147,4 +147,4 @@ The next phase covers:
 
 | Previous | Home | Next |
 |----------|------|------|
-| ⬅️ [Phase 4 – Windows Server Installation](../4-Windows-Server-Installation/README.md) | 🏠 [Home](../../README.md) | ➡️ [Phase 6 – Active Directory Domain Services](../6-Active-Directory-DS/README.md) |
+| ⬅️ [Windows Server Installation](../4-Windows-Server-Installation/README.md) | 🏠 [Home](../../README.md) | ➡️ [Active Directory Domain Services](../6-Active-Directory-DS/README.md) |
