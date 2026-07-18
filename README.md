@@ -37,7 +37,7 @@ The project aims to become an open technical reference for students, IT enthusia
 
 ## Project Goals
 
-### Technical Goals
+Technical Goals
 
 - Learn and experiment with modern system administration technologies in a realistic environment.
 - Refresh existing IT knowledge and combine it with modern infrastructure technologies and best practices.
