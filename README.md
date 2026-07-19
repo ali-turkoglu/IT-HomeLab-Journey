@@ -164,44 +164,43 @@ The project is organized into multiple phases that gradually build a complete en
 - ✅ [Phase 4 – Windows Server Installation](docs/4-Windows-Server-Installation/README.md)
 - ✅ [Phase 5 – Windows Server Initial Configuration](docs/5-Windows-Server-Initial-Configuration/README.md)
 - ✅ [Phase 6 – Active Directory Domain Services](docs/6-Active-Directory-Domain-Services/README.md)
-- 🚧 Phase 7 – DNS
-- ⏳ Phase 8 – DHCP
-- ⏳ Phase 9 – Group Policy
-- ⏳ Phase 10 – File Server & NTFS Permissions
-- ⏳ Phase 11 – Print Server
-- ⏳ Phase 12 – Windows Server Backup
-- ⏳ Phase 13 – WSUS (Windows Server Update Services)
+- ✅ [Phase 7 – DNS-DHCP](docs/7-DNS-DHCP/README.md) 
+- 🚧 Phase 8 – Group Policy
+- ⏳ Phase 9 – File Server & NTFS Permissions
+- ⏳ Phase 10 – Print Server
+- ⏳ Phase 11 – Windows Server Backup
+- ⏳ Phase 12 – WSUS (Windows Server Update Services)
 
 ### Linux & Containers
 
-- ⏳ Phase 14 – Ubuntu Server
-- ⏳ Phase 15 – Docker & Portainer
+- ⏳ Phase 13 – Ubuntu Server
+- ⏳ Phase 14 – Docker & Portainer
    - Docker Compose
    - Container Management
    - Self-Hosted Services
 
 ### Monitoring & Automation
 
-- ⏳ Phase 16 – Infrastructure Monitoring (Zabbix)
-- ⏳ Phase 17 – PowerShell Automation
-- ⏳ Phase 18 – Bash Scripting
+- ⏳ Phase 15 – Infrastructure Monitoring (Zabbix)
+- ⏳ Phase 16 – PowerShell Automation
+- ⏳ Phase 17 – Bash Scripting
 
 ### Security
 
-- ⏳ Phase 19 – Windows Security Hardening
-- ⏳ Phase 20 – pfSense Firewall
+- ⏳ Phase 18 – Windows Security Hardening
+- ⏳ Phase 19 – pfSense Firewall
 
 ### Cloud & Identity
 
-- ⏳ Phase 21 – Microsoft Entra ID
-- ⏳ Phase 22 – Microsoft 365 Integration
+- ⏳ Phase 20 – Microsoft Entra ID
+- ⏳ Phase 21 – Microsoft 365 Integration
 
 ### Enterprise Scenarios
 
-- ⏳ Phase 23 – User & Group Management
-- ⏳ Phase 24 – File Sharing & Permissions
-- ⏳ Phase 25 – Backup & Disaster Recovery
-- ⏳ Phase 26 – Enterprise Troubleshooting Scenarios
+- ⏳ Phase 22 – User & Group Management
+- ⏳ Phase 23 – File Sharing & Permissions
+- ⏳ Phase 24 – Backup & Disaster Recovery
+- ⏳ Phase 25 – Enterprise Troubleshooting Scenarios
 
 > The roadmap will continue to evolve as new technologies and enterprise scenarios are added to the HomeLab.
 
@@ -238,6 +237,8 @@ Instead of publishing only completed work, this project documents the entire jou
 - **14-07-2026** – Phase 3: Proxmox Post-Installation Configuration completed.
 - **15-07-2026** – Phase 4: Windows Server 2022 Installation completed.
 - **17-07-2026** – Phase 5: Windows Server Initial Configuration completed.
+- **19-07-2026** – Phase 6: Active Directory Domain Services completed.
+- **19-07-2026** – Phase 7: DNS & DHCP Configuration completed.
 
 ## License
 
