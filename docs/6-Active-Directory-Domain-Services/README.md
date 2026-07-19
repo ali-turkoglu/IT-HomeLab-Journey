@@ -1,4 +1,4 @@
-# Phase 6 – Active Directory Domain Services
+# Active Directory Domain Services
 
 > **Status:** ✅ Completed
 
