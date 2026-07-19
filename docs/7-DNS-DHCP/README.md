@@ -20,7 +20,7 @@ To check the configuration and manage my domain records, I opened the **DNS Mana
 
 | DNS Manager Console |
 |:-------------------:|
-| ![](images/01-dns-manager.png) |
+| ![](images/1-dns-manager.png) |
 
 ---
 
@@ -33,7 +33,7 @@ I noticed that the Forward Lookup Zones were created automatically during the Ac
 
 | Forward Lookup Zones | DNS Records in homelab.local |
 |:--------------------:|:----------------------------:|
-| ![](images/02-forward-lookup-zones.png) | ![](images/03-forward-lookup-records.png) |
+| ![](images/2-forward-lookup-zones.png) | ![](images/3-forward-lookup-records.png) |
 
 When I checked inside the `homelab.local` zone, I saw the required DNS records for my domain controller. This included the Host (A), Name Server (NS), and Start of Authority (SOA) records. These records allow other computers to locate the Domain Controller.
 
@@ -49,7 +49,7 @@ I created a new Primary Zone for my local IPv4 network (`192.168.x.0/24`). This 
 
 | Creating a New Zone | Reverse Lookup Zone Created |
 |:-------------------:|:---------------------------:|
-| ![](images/04-new-reverse-zone.png) | ![](images/05-reverse-zone-created.png) |
+| ![](images/4-new-reverse-zone.png) | ![](images/5-reverse-zone-created.png) |
 
 ---
 
@@ -64,7 +64,7 @@ I opened Command Prompt and used the `nslookup` command.
 
 | nslookup Command Test |
 |:---------------------:|
-| ![](images/06-nslookup-test.png) |
+| ![](images/6-nslookup-test.png) |
 
 Both tests returned the expected results. This confirmed that both forward and reverse DNS resolution were working correctly.
 
@@ -88,7 +88,7 @@ I authorized the DHCP server using my `HOMELAB\Administrator` account.
 
 | DHCP Post-Deployment | Authorizing DHCP Server |
 |:--------------------:|:-----------------------:|
-| ![](images/07-dhcp-post-install.png) | ![](images/08-dhcp-authorization.png) |
+| ![](images/7-dhcp-post-install.png) | ![](images/8-dhcp-authorization.png) |
 
 ---
 
@@ -102,7 +102,7 @@ When defining the address range, I intentionally left some IP addresses outside 
 
 | IP Address Range Configuration |
 |:------------------------------:|
-| ![](images/09-dhcp-scope.png) |
+| ![](images/9-dhcp-scope.png) |
 
 ---
 
