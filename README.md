@@ -163,7 +163,7 @@ The project is organized into multiple phases that gradually build a complete en
 
 - ✅ [Phase 4 – Windows Server Installation](docs/4-Windows-Server-Installation/README.md)
 - ✅ [Phase 5 – Windows Server Initial Configuration](docs/5-Windows-Server-Initial-Configuration/README.md)
-- ✅ [Phase 6 – Active Directory Domain Services](../6-Active-Directory-Domain-Services/README.md)
+- ✅ [Phase 6 – Active Directory Domain Services](docs/6-Active-Directory-Domain-Services/README.md)
 - 🚧 Phase 7 – DNS
 - ⏳ Phase 8 – DHCP
 - ⏳ Phase 9 – Group Policy
