@@ -143,4 +143,4 @@ The next phase covers:
 
 | Previous | Home | Next |
 |----------|------|------|
-| ⬅️ [Windows Server Installation](../4-Windows-Server-Installation/README.md) | 🏠 [Home](../../README.md) | ➡️ [Active Directory Domain Services](../6-Active-Directory-DS/README.md) |
+| ⬅️ [Windows Server Installation](../4-Windows-Server-Installation/README.md) | 🏠 [Home](../../README.md) | ➡️ [Active Directory Domain Services](../6-Active-Directory-Domain-Services/README.md) |
