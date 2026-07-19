@@ -33,7 +33,7 @@ I noticed that the Forward Lookup Zones were created automatically during the Ac
 
 | Forward Lookup Zones | DNS Records in homelab.local |
 |:--------------------:|:----------------------------:|
-| ![](images/2-forward-lookup-zones.png) | ![](images/3-forward-lookup-records.png) |
+| ![](images/2-forward-lookup-zones.png) | ![](images/3-forward-lookup-records1.png) |
 
 When I checked inside the `homelab.local` zone, I saw the required DNS records for my domain controller. This included the Host (A), Name Server (NS), and Start of Authority (SOA) records. These records allow other computers to locate the Domain Controller.
 
