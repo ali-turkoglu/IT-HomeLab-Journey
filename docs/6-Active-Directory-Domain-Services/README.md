@@ -24,7 +24,7 @@ I selected **Active Directory Domain Services** from the available server roles.
 
 | Select AD DS Role | Post-Installation Warning |
 |:-----------------:|:-------------------------:|
-| ![](images/01-add-roles.png) | ![](images/02-promote-warning.png) |
+| ![](images/4-server-roles.png.png) | ![](images/9-configuration-required.png) |
 
 After the role installation completed, Windows Server required additional configuration before the server could become a Domain Controller.
 
@@ -42,7 +42,7 @@ The root domain name I chose is:
 
 | Deployment Configuration | Domain Controller Options |
 |:------------------------:|:-------------------------:|
-| ![](images/03-deployment-config.png) | ![](images/04-dc-options.png) |
+| ![](images/10-deployment-configuration.png) | ![](images/11-domain-controller-options.png) |
 
 ---
 
@@ -65,7 +65,7 @@ Before starting the installation, Windows Server validated my configuration.
 
 | Review Options | Prerequisites Check |
 |:--------------:|:-------------------:|
-| ![](images/05-review-options.png) | ![](images/06-prerequisites-check.png) |
+| ![](images/15-review-options.png) | ![](images/15-prerequisites-check.png) |
 
 During the check, I saw a warning about DNS delegation.
 
@@ -85,17 +85,15 @@ To verify that the Domain Controller was working correctly, I opened **Active Di
 
 | Active Directory Users and Computers |
 |:------------------------------------:|
-| ![](images/07-aduc-verification.png) |
+| ![](images/16-active-directory-users-and-computers.png) |
 
 I saw that the new `homelab.local` domain was created successfully. The default containers, such as **Builtin**, **Computers**, **Domain Controllers**, and **Users**, were created automatically during the domain promotion process.
 
-I also verified the domain configuration using PowerShell.
+I also verified the Active Directory configuration using PowerShell.
 
 | PowerShell Validation |
 |:---------------------:|
-| ![](images/08-powershell-validation.png) |
-
-The validation confirmed that the Domain Controller was configured successfully.
+| ![](images/17-validation-powershell.png) |
 
 ---
 
