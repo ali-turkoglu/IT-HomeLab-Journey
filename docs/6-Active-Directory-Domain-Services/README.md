@@ -115,4 +115,4 @@ Now that Active Directory is running, the next step is to configure DNS and then
 
 | Previous | Home | Next |
 |----------|------|------|
-| ⬅️ [Initial Configuration](../5-Windows-Server-Initial-Configuration/README.md) | 🏠 [Home](../../README.md) | ➡️ [DNS & DHCP Configuration](../7-DNS-DHCP-Configuration/README.md) |
+| ⬅️ [Windows Server Initial Configuration](../5-Windows-Server-Initial-Configuration/README.md) | 🏠 [Home](../../README.md) | ➡️ [DNS & DHCP Configuration](../7-DNS-DHCP-Configuration/README.md) |
