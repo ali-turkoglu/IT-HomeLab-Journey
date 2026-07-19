@@ -86,6 +86,11 @@ The HomeLab is not only a learning platform but also a production environment th
 - WSUS
 - Windows Server Backup
 
+### Cloud & Identity
+
+- Microsoft Entra ID
+- Microsoft 365
+
 ### Linux
 
 - Ubuntu Server
@@ -105,17 +110,12 @@ The HomeLab is not only a learning platform but also a production environment th
 
 - Networking
 - Monitoring
-- Backup
+- Backup & Disaster Recovery
 - Security
 
 ### Network Security
 
 - pfSense
-
-### Cloud & Identity
-
-- Microsoft Entra ID
-- Microsoft 365
 
 ### Version Control
 
@@ -171,29 +171,29 @@ The project is organized into multiple phases that gradually build a complete en
 - ⏳ Phase 11 – Windows Server Backup
 - ⏳ Phase 12 – WSUS (Windows Server Update Services)
 
+### Cloud & Identity
+
+- ⏳ Phase 13 – Microsoft Entra ID
+- ⏳ Phase 14 – Microsoft 365 Integration
+
 ### Linux & Containers
 
-- ⏳ Phase 13 – Ubuntu Server
-- ⏳ Phase 14 – Docker & Portainer
-   - Docker Compose
-   - Container Management
-   - Self-Hosted Services
+- ⏳ Phase 15 – Ubuntu Server
+- ⏳ Phase 16 – Docker & Portainer
+  - Docker Compose
+  - Container Management
+  - Self-Hosted Services
 
 ### Monitoring & Automation
 
-- ⏳ Phase 15 – Infrastructure Monitoring (Zabbix)
-- ⏳ Phase 16 – PowerShell Automation
-- ⏳ Phase 17 – Bash Scripting
+- ⏳ Phase 17 – Infrastructure Monitoring (Zabbix)
+- ⏳ Phase 18 – PowerShell Automation
+- ⏳ Phase 19 – Bash Scripting
 
 ### Security
 
-- ⏳ Phase 18 – Windows Security Hardening
-- ⏳ Phase 19 – pfSense Firewall
-
-### Cloud & Identity
-
-- ⏳ Phase 20 – Microsoft Entra ID
-- ⏳ Phase 21 – Microsoft 365 Integration
+- ⏳ Phase 20 – Windows Security Hardening
+- ⏳ Phase 21 – pfSense Firewall
 
 ### Enterprise Scenarios
 
