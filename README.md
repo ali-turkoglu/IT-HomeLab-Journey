@@ -89,11 +89,11 @@ The HomeLab is not only a learning platform but also a production environment th
 ### Linux
 
 - Ubuntu Server
-- Bash
 
 ### Containers
 
 - Docker
+- Docker Compose
 - Portainer
 
 ### Automation
@@ -104,10 +104,12 @@ The HomeLab is not only a learning platform but also a production environment th
 ### Infrastructure
 
 - Networking
-- Virtualization
-- Backup
 - Monitoring
+- Backup
 - Security
+
+### Network Security
+
 - pfSense
 
 ### Cloud & Identity
@@ -132,9 +134,9 @@ The complete hardware selection process, device comparisons, purchasing decision
 
 ## HomeLab Architecture
 
-The architecture will evolve together with the HomeLab.
+The HomeLab architecture will evolve as new technologies and services are introduced throughout the project.
 
-As new services are deployed, the architecture diagrams will be updated to reflect the current infrastructure.
+The diagrams will be updated regularly to reflect the current infrastructure.
 
 The final documentation will include:
 
@@ -174,13 +176,13 @@ The project is organized into multiple phases that gradually build a complete en
 
 - ⏳ Phase 14 – Ubuntu Server
 - ⏳ Phase 15 – Docker & Portainer
-   • Docker Compose
-   • Container Management
-   • Self-Hosted Services
+   - Docker Compose
+   - Container Management
+   - Self-Hosted Services
 
 ### Monitoring & Automation
 
-- ⏳ Phase 16 – Zabbix Monitoring
+- ⏳ Phase 16 – Infrastructure Monitoring (Zabbix)
 - ⏳ Phase 17 – PowerShell Automation
 - ⏳ Phase 18 – Bash Scripting
 
@@ -200,6 +202,8 @@ The project is organized into multiple phases that gradually build a complete en
 - ⏳ Phase 24 – File Sharing & Permissions
 - ⏳ Phase 25 – Backup & Disaster Recovery
 - ⏳ Phase 26 – Enterprise Troubleshooting Scenarios
+
+> The roadmap will continue to evolve as new technologies and enterprise scenarios are added to the HomeLab.
 
 ## Documentation
 
