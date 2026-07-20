@@ -148,4 +148,4 @@ In the next phase, I will create Organizational Units (OUs), user accounts, and 
 
 | Previous | Home | Next |
 |----------|------|------|
-| ⬅️ [Active Directory Domain Services](../6-Active-Directory-Domain-Services/README.md) | 🏠 [Home](../../README.md) | ➡️ Group Policy & User Management |
+| ⬅️ [Active Directory Domain Services](../6-Active-Directory-Domain-Services/README.md) | 🏠 [Home](../../README.md) | ➡️ [Group Policy & User Management](../8-Domain-Client&Group-Policy/README.md) | 
