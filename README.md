@@ -165,7 +165,7 @@ The project is organized into multiple phases that gradually build a complete en
 - ✅ [Phase 5 – Windows Server Initial Configuration](docs/5-Windows-Server-Initial-Configuration/README.md)
 - ✅ [Phase 6 – Active Directory Domain Services](docs/6-Active-Directory-Domain-Services/README.md)
 - ✅ [Phase 7 – DNS-DHCP](docs/7-DNS-DHCP/README.md) 
-- ✅ [Phase 8 – Group Policy](docs/8-Domain-Client&Group-Policy/README.md)
+- ✅ [Phase 8 – Domain Client & Group Policy](docs/8-Domain-Client&Group-Policy/README.md)
 - 🚧 Phase 9 – File Server & NTFS Permissions
 - ⏳ Phase 10 – Print Server
 - ⏳ Phase 11 – Windows Server Backup
