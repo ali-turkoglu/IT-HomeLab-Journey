@@ -163,4 +163,4 @@ The same validation was also performed successfully for the HR, IT, and Manageme
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [ Group Policy & Domain Join](../8-Domain-Client&Group-Policy/README.md) | 🏠 [Home](../README.md) | ➡️ Phase 10 – Print Server Configuration *(Coming Soon)* |
+| ⬅️ [ Group Policy & Domain Join](../8-Domain-Client&Group-Policy/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 10 – Print Server Configuration *(Coming Soon)* |
