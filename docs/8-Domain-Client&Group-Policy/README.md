@@ -120,4 +120,4 @@ Then, I created and configured a custom Group Policy Object for my HomeLab. The 
 
 | Previous | Home | Next |
 |----------|------|------|
-| ⬅️ [DNS & DHCP Configuration](../7-DNS-DHCP/README.md) | 🏠 [Home](../../README.md) | ➡️ File Server & NTFS Permissions |
+| ⬅️ [DNS & DHCP Configuration](../7-DNS-DHCP/README.md) | 🏠 [Home](../../README.md) | ➡️ [File Server & NTFS Permissions](../9-Active-Directory-Organization&Security-File-Sharing/README.md) |
