@@ -167,8 +167,8 @@ The project is organized into multiple phases that gradually build a complete en
 - ✅ [Phase 7 – DNS-DHCP](docs/7-DNS-DHCP/README.md) 
 - ✅ [Phase 8 – Domain Client & Group Policy](docs/8-Domain-Client&Group-Policy/README.md)
 - ✅ [Phase 9 – Active Directory Organization & File Sharing](docs/9-Active-Directory-Organization&Security-File-Sharing/README.md)
-- 🚧 Phase 10 – Print Server
-- ⏳ Phase 11 – Windows Server Backup
+- ✅ [Phase 10 – Print Server Configuration](docs/10–Print-Server-Configuration/README.md)
+- 🚧 Phase 11 – Windows Server Backup
 - ⏳ Phase 12 – WSUS (Windows Server Update Services)
 
 ### Cloud & Identity
@@ -241,6 +241,7 @@ Instead of publishing only completed work, this project documents the entire jou
 - **19-07-2026** – Phase 7: DNS & DHCP Configuration completed.
 - **20-07-2026** – Phase 8: Domain Client & Group Policy completed.
 - **23-07-2026** - Phase 9: Active Directory Organization & File Sharing.
+- **24-07-2026** - Phase 10: Printer Server Configuration.
 
 ## License
 
