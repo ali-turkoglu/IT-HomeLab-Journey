@@ -19,8 +19,7 @@ In the next phase of this HomeLab project, I will also implement **Veeam Backup 
 - Learn how to use Windows Server Backup.
 - Configure a dedicated backup storage volume.
 - Create and verify a Full Server Backup.
-- Understand the difference between Windows Server Backup and enterprise backup solutions.
-- Prepare the backup environment for the upcoming Veeam Backup & Replication implementation.
+- Understand the differences between Windows Server Backup and Veeam Backup & Replication.
 
 ---
 
@@ -40,7 +39,9 @@ In the next phase of this HomeLab project, I will also implement **Veeam Backup 
 
 To keep the backup environment separate from the operating system, I first created a dedicated **50 GB virtual disk** in Proxmox and attached it to the Windows Server virtual machine.
 
-This disk is used to store Windows Server backups. It will also be reused in the next phase while testing Veeam Backup & Replication.
+This disk is used exclusively to store Windows Server backups.
+
+In the next phase of this HomeLab project, Veeam Backup & Replication will be deployed on a dedicated backup server with its own backup repository to better reflect a production-style backup architecture.
 
 Since this HomeLab uses a single Windows Server running multiple roles—including Active Directory, DNS, Group Policy, File Server, and Print Server—I selected **Full Server Backup**.
 
@@ -132,7 +133,7 @@ In this phase, I configured and tested Windows Server Backup using a dedicated b
 
 The backup completed successfully, and the backup files were verified on the dedicated backup disk.
 
-In the next phase, I will implement **Veeam Backup & Replication** to explore an enterprise backup solution widely used in professional IT environments.
+In the next phase, I will deploy **Veeam Backup & Replication** on a dedicated backup server and configure a separate backup repository to simulate a more realistic enterprise backup architecture.
 
 ---
 
