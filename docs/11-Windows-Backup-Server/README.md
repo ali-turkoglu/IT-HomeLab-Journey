@@ -58,7 +58,7 @@ After Windows detected the disk, I initialized it, formatted it with NTFS, and a
 
 | Add Virtual Disk in Proxmox | Hardware Overview |
 |:---------------------------:|:-----------------:|
-| ![](images/01-Add-Backup.png) | ![](images/02-Backup-Disk-Added.png) |
+| ![](images/01-Add-Backup-Disk.png) | ![](images/02-Backup-Disk-Added.png) |
 
 | Windows Disk Management (D: Drive Ready) |
 |:----------------------------------------:|
