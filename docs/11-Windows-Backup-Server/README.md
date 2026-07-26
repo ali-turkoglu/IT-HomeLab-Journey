@@ -141,4 +141,4 @@ In the next phase, I will deploy **Veeam Backup & Replication** on a dedicated b
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [Print Server Configuration](../10–Print-Server-Configuration/README.md) | 🏠 [Home](../../README.md) | ➡️ Veeam Backup & Replication *(Coming Soon)* |
+| ⬅️ [Print Server Configuration](../10–Print-Server-Configuration/README.md) | 🏠 [Home](../../README.md) | ➡️ [Veeam Backup & Replication](../11b-Veeam-Backup&Replication/README.md) |
