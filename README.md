@@ -169,8 +169,8 @@ The project is organized into multiple phases that gradually build a complete en
 - ✅ [Phase 9 – Active Directory Organization & File Sharing](docs/9-Active-Directory-Organization&Security-File-Sharing/README.md)
 - ✅ [Phase 10 – Print Server Configuration](docs/10–Print-Server-Configuration/README.md)
 - ✅ [Phase 11a – Windows Server Backup](docs/11-Windows-Backup-Server/README.md)
-- 🚧 Phase 11b - Veeam Backup & Replication
-- ⏳ Phase 12 – WSUS (Windows Server Update Services)
+- ✅ [Phase 11b - Veeam Backup & Replication](docs/11b-Veeam-Backup&Replication/README.md)
+- 🚧 Phase 12 – WSUS (Windows Server Update Services)
 
 ### Cloud & Identity
 
@@ -244,7 +244,7 @@ Instead of publishing only completed work, this project documents the entire jou
 - **23-07-2026** - Phase 9: Active Directory Organization & File Sharing.
 - **24-07-2026** - Phase 10: Printer Server Configuration.
 - **25-07-2026** - Phase 11: Windows Backup Server.
-
+- **26-07-2026** - Phase 11b: Veeam Backup & Replication.
   
 ## License
 
