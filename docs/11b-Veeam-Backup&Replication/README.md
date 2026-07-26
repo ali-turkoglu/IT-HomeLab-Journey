@@ -131,4 +131,4 @@ The backup infrastructure was configured, the first backup completed successfull
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [Phase 11: Windows Server Backup](../11-Windows-Server-Backup/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 13: Ubuntu Server *(Coming Soon)* |
+| ⬅️ [Windows Server Backup](../11-Windows-Backup-Server/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 13: *(Coming Soon)* |
