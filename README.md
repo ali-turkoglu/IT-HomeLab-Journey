@@ -1,159 +1,129 @@
-# IT HomeLab Journey
+# Enterprise Windows Infrastructure Lab
 
-Building a professional IT HomeLab from scratch while documenting every step.
+> **Part 1 of the IT Infrastructure Lab Series**
+>
+> This repository shows how I built a complete Windows enterprise infrastructure in my HomeLab from scratch. Every phase is documented step by step, from the first hardware purchase to a fully working Windows Server environment.
 
 > [!TIP]
-> **New to this project?**
+> **New to this repository?**
 >
-> This repository is designed to be read from beginning to end.
-> Each phase builds on the previous one, so I recommend following the documentation in the order shown in the **Project Roadmap** below.
+> I recommend reading the documentation from beginning to end. Each phase builds on the previous one, making it easier to understand how the entire environment was designed and configured.
+
 ---
 
-## Table of Contents
+# Table of Contents
 
 - [Project Overview](#project-overview)
-- [Project Goals](#project-goals)
+- [Project Objectives](#project-objectives)
 - [Technology Stack](#technology-stack)
 - [Hardware](#hardware)
-- [HomeLab Architecture](#homelab-architecture)
+- [Architecture](#architecture)
 - [Project Roadmap](#project-roadmap)
-- [Documentation](#documentation)
-- [HomeLab Log](#homelab-log)
+- [Project Timeline](#project-timeline)
+- [Next Project](#next-project)
+- [IT Infrastructure Lab Series](#it-infrastructure-lab-series)
 - [License](#license)
+
 ---
 
+# Project Overview
 
-## Project Overview
+This repository documents the first part of my IT Infrastructure Lab Series.
 
-This repository documents the complete process of building a professional IT HomeLab from scratch.
+The goal of this project was to build a realistic Windows enterprise environment in a HomeLab using modern Microsoft technologies. Instead of showing only the final result, I documented every important step along the way, including planning, installation, configuration, troubleshooting, and lessons learned.
 
-The project focuses on designing and implementing a realistic enterprise environment using virtualization, Microsoft infrastructure, Linux, networking, containers, automation, monitoring, security and cloud technologies.
+The environment was built from scratch using Proxmox VE and Windows Server. During the project I configured Active Directory, DNS, DHCP, Group Policy, File Services, Print Services, Backup solutions, and WSUS, just like they are commonly used in many organizations.
 
-Instead of publishing only the final results, every important decision, configuration, challenge and solution is documented step by step.
+This repository is both a learning project and a technical portfolio. I hope it can also help anyone who wants to build a similar HomeLab or learn Windows system administration.
 
-The project aims to become an open technical reference for students, IT enthusiasts and aspiring system administrators by documenting every stage of the journey. It also serves as a professional portfolio that demonstrates practical skills and real-world experience.
+---
 
+# Project Objectives
 
+The main goals of this project were to:
 
-## Project Goals
+- Build a realistic Windows enterprise environment in a HomeLab.
+- Learn and apply Microsoft infrastructure technologies.
+- Follow common enterprise best practices whenever possible.
+- Document every important step, decision, and problem during the project.
+- Create a technical reference that others can learn from.
+- Build a professional GitHub portfolio with real hands-on projects.
 
-Technical Goals
+---
 
-- Learn and experiment with modern system administration technologies in a realistic environment.
-- Refresh existing IT knowledge and combine it with modern infrastructure technologies and best practices.
-- Design, build and maintain a HomeLab that simulates a realistic enterprise IT infrastructure.
-- Build an affordable and energy-efficient HomeLab that delivers a realistic enterprise learning experience.
-- Simulate real-world enterprise IT scenarios commonly found in modern organizations.
-
-### Documentation & Career Goals
-
-- Document every stage of the project, from planning to deployment and maintenance.
-- Explain the reasoning behind technical decisions and compare alternative approaches whenever appropriate.
-- Record challenges encountered during the implementation process together with their solutions and lessons learned.
-- Create an open technical reference that can help others build their own HomeLab.
-- Build a professional portfolio that demonstrates practical experience, technical documentation skills and problem-solving abilities.
-
-### Home Services Goals
-
-The HomeLab is not only a learning platform but also a production environment that provides useful services for the household, including:
-
-- Personal Cloud Storage
-- Online Photo Archive
-- Home File Server
-- Automated Backup System
-- Secure Remote Access via VPN
-- Network-wide Ad Blocking
-- Document Management
-- Home Automation Platform
-- Additional self-hosted services as the infrastructure evolves
-
-
-## Technology Stack
+# Technology Stack
 
 ### Virtualization
 
 - Proxmox VE
 
+### Operating Systems
+
+- Windows Server 2022
+- Windows 11 Enterprise
+
 ### Microsoft Infrastructure
 
-- Windows Server
-- Active Directory
+- Active Directory Domain Services (AD DS)
 - DNS
 - DHCP
 - Group Policy
 - File Server
 - Print Server
-- WSUS
+
+### Backup & Recovery
+
 - Windows Server Backup
+- Veeam Backup & Replication
 
-### Cloud & Identity
+### Updates & Security
 
-- Microsoft Entra ID
-- Microsoft 365
-
-### Linux
-
-- Ubuntu Server
-
-### Containers
-
-- Docker
-- Docker Compose
-- Portainer
-
-### Automation
-
-- PowerShell
-- Bash
-
-### Infrastructure
-
-- Networking
-- Monitoring
-- Backup & Disaster Recovery
-- Security
-
-### Network Security
-
-- pfSense
+- Windows Server Update Services (WSUS)
+- Windows Defender Firewall
 
 ### Version Control
 
-- Git & GitHub
-  
+- Git
+- GitHub
 
+---
 
-## Hardware
+# Hardware
 
-The HomeLab is built using affordable and energy-efficient hardware that balances performance, power consumption and cost.
+The HomeLab is built on affordable and energy-efficient hardware that provides a good balance between performance, power consumption, and cost.
 
-The complete hardware selection process, device comparisons, purchasing decisions, and acceptance testing are documented in detail.
+The complete hardware selection process, purchasing decision, and acceptance testing are documented in detail.
 
 ➡️ **[Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/README.md)**
 
+---
 
-## HomeLab Architecture
+# Architecture
 
-The HomeLab architecture will evolve as new technologies and services are introduced throughout the project.
+This repository focuses on the Windows infrastructure running inside my HomeLab.
 
-The diagrams will be updated regularly to reflect the current infrastructure.
+The environment includes:
 
-The final documentation will include:
+- Physical HomeLab hardware
+- Proxmox VE virtualization
+- Windows Server
+- Active Directory
+- DNS & DHCP
+- Group Policy
+- File Server
+- Print Server
+- Backup solutions
+- WSUS
 
-- Physical network topology
-- Virtual infrastructure
-- Active Directory architecture
-- Network segmentation
-- Service dependencies
-- Backup strategy
-- Security architecture
+The architecture diagrams will continue to improve as the documentation grows.
 
+---
 
-## Project Roadmap
+# Project Roadmap
 
-The project is organized into multiple phases that gradually build a complete enterprise-style HomeLab.
+The project is divided into small phases. Each phase focuses on one technology and builds on the previous one.
 
-### Foundation
+## Foundation
 
 - ✅ [Phase 1 – Hardware Selection & Procurement](docs/1-Hardware/README.md)
 - ✅ [Phase 2 – Proxmox VE Installation](docs/2-Proxmox/README.md)
@@ -172,84 +142,76 @@ The project is organized into multiple phases that gradually build a complete en
 - ✅ [Phase 11b - Veeam Backup & Replication](docs/11b-Veeam-Backup&Replication/README.md)
 - ✅ [Phase 12 – WSUS (Windows Server Update Services)](docs/12-WSUS/README.md)
 
-### Cloud & Identity
+> **Project Status:** ✅ Completed
 
-- 🚧 Phase 13 – Microsoft Entra ID
-- ⏳ Phase 14 – Microsoft 365 Integration
+---
 
-### Linux & Containers
+# Project Timeline
 
-- ⏳ Phase 15 – Ubuntu Server
-- ⏳ Phase 16 – Docker & Portainer
-  - Docker Compose
-  - Container Management
-  - Self-Hosted Services
+This timeline shows the main milestones of the project.
 
-### Monitoring & Automation
+| Date | Milestone |
+|------|-----------|
+| 04-07-2026 | GitHub repository created |
+| 09-07-2026 | HomeLab hardware purchased |
+| 12-07-2026 | Phase 1 completed |
+| 13-07-2026 | Phase 2 completed |
+| 14-07-2026 | Phase 3 completed |
+| 15-07-2026 | Phase 4 completed |
+| 17-07-2026 | Phase 5 completed |
+| 19-07-2026 | Phase 6 completed |
+| 19-07-2026 | Phase 7 completed |
+| 20-07-2026 | Phase 8 completed |
+| 23-07-2026 | Phase 9 completed |
+| 24-07-2026 | Phase 10 completed |
+| 25-07-2026 | Phase 11a completed |
+| 26-07-2026 | Phase 11b completed |
+| 27-07-2026 | Phase 12 completed |
 
-- ⏳ Phase 17 – Infrastructure Monitoring (Zabbix)
-- ⏳ Phase 18 – PowerShell Automation
-- ⏳ Phase 19 – Bash Scripting
+---
 
-### Security
+# Next Project
 
-- ⏳ Phase 20 – Windows Security Hardening
-- ⏳ Phase 21 – pfSense Firewall
+## Enterprise Cloud & Identity Lab
 
-### Enterprise Scenarios
+This Windows infrastructure is the foundation for the next project.
 
-- ⏳ Phase 22 – User & Group Management
-- ⏳ Phase 23 – File Sharing & Permissions
-- ⏳ Phase 24 – Backup & Disaster Recovery
-- ⏳ Phase 25 – Enterprise Troubleshooting Scenarios
+The next repository will continue with modern Microsoft cloud technologies, including:
 
-> The roadmap will continue to evolve as new technologies and enterprise scenarios are added to the HomeLab.
+- Microsoft Entra ID
+- Microsoft 365
+- Microsoft Intune
+- Exchange Online
+- Microsoft Teams
+- SharePoint Online
+- Hybrid Identity
+- Azure
 
-## Documentation
+➡️ **Repository:** *Coming Soon*
 
-The documentation is organized into individual phases. Each phase focuses on a specific technology or project milestone and follows the same documentation structure to ensure consistency throughout the repository.
+---
 
-Each phase includes:
+# IT Infrastructure Lab Series
 
-- Overview
-- Objectives
-- Planning
-- Architecture
-- Implementation
-- Configuration
-- Screenshots
-- Verification
-- Lessons Learned
-- Navigation to the previous and next project phases
-  
+This repository is the first project in my IT Infrastructure Lab Series.
 
-## HomeLab Log
+Each repository focuses on a different area of enterprise IT while staying connected as part of the same HomeLab.
 
-The HomeLab Log records important milestones throughout the project.
+| Status | Repository |
+|--------|------------|
+| ✅ | **Enterprise Windows Infrastructure Lab** *(Current Repository)* |
+| 🚧 | **Enterprise Cloud & Identity Lab** |
+| ⏳ | **Enterprise Linux & Containers Lab** |
+| ⏳ | **Enterprise Monitoring & Automation Lab** |
+| ⏳ | **Enterprise Network Security Lab** |
+| ⏳ | **Enterprise IT Service Management Lab** |
 
-Instead of publishing only completed work, this project documents the entire journey, including planning, implementation, challenges, improvements and lessons learned.
+The series will continue as I build and document more enterprise technologies.
 
-## Timeline
+---
 
-- **04-07-2026** – GitHub repository created.
-- **09-07-2026** – HomeLab hardware purchased.
-- **12-07-2026** – Phase 1: Hardware Selection & Procurement completed.
-- **13-07-2026** – Phase 2: Proxmox VE Installation completed.
-- **14-07-2026** – Phase 3: Proxmox Post-Installation Configuration completed.
-- **15-07-2026** – Phase 4: Windows Server 2022 Installation completed.
-- **17-07-2026** – Phase 5: Windows Server Initial Configuration completed.
-- **19-07-2026** – Phase 6: Active Directory Domain Services completed.
-- **19-07-2026** – Phase 7: DNS & DHCP Configuration completed.
-- **20-07-2026** – Phase 8: Domain Client & Group Policy completed.
-- **23-07-2026** - Phase 9: Active Directory Organization & File Sharing.
-- **24-07-2026** - Phase 10: Printer Server Configuration.
-- **25-07-2026** - Phase 11: Windows Backup Server.
-- **26-07-2026** - Phase 11b: Veeam Backup & Replication.
-- **27-07-2026** - Phase 12: Windows Server Update Services.
-
-    
-## License
+# License
 
 This project is licensed under the MIT License.
-See the LICENSE file for more information.
 
+See the **LICENSE** file for more information.
