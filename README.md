@@ -170,11 +170,11 @@ The project is organized into multiple phases that gradually build a complete en
 - ✅ [Phase 10 – Print Server Configuration](docs/10–Print-Server-Configuration/README.md)
 - ✅ [Phase 11a – Windows Server Backup](docs/11-Windows-Backup-Server/README.md)
 - ✅ [Phase 11b - Veeam Backup & Replication](docs/11b-Veeam-Backup&Replication/README.md)
-- 🚧 Phase 12 – WSUS (Windows Server Update Services)
+- ✅ [Phase 12 – WSUS (Windows Server Update Services)](docs/12-WSUS/README.md)
 
 ### Cloud & Identity
 
-- ⏳ Phase 13 – Microsoft Entra ID
+- 🚧 Phase 13 – Microsoft Entra ID
 - ⏳ Phase 14 – Microsoft 365 Integration
 
 ### Linux & Containers
@@ -245,7 +245,9 @@ Instead of publishing only completed work, this project documents the entire jou
 - **24-07-2026** - Phase 10: Printer Server Configuration.
 - **25-07-2026** - Phase 11: Windows Backup Server.
 - **26-07-2026** - Phase 11b: Veeam Backup & Replication.
-  
+- **27-07-2026** - Phase 12: Windows Server Update Services.
+
+    
 ## License
 
 This project is licensed under the MIT License.
