@@ -131,4 +131,4 @@ The backup infrastructure was configured, the first backup completed successfull
 
 | Previous | Home | Next |
 |:--------:|:----:|:----:|
-| ⬅️ [Windows Server Backup](../11-Windows-Backup-Server/README.md) | 🏠 [Home](../../README.md) | ➡️ Phase 13: *(Coming Soon)* |
+| ⬅️ [Windows Server Backup](../11-Windows-Backup-Server/README.md) | 🏠 [Home](../../README.md) | ➡️ [Windows Server Update Services](../12-WSUS/README.md) |
