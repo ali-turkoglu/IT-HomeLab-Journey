@@ -68,7 +68,7 @@ I selected the `E:\WSUS` folder as the content location.
 
 | Select WSUS Role & Features | WSUS Content Location |
 |:---------------------------:|:---------------------:|
-| ![](images/01-add-roles-and-features.png)<br>![](images/02-add-required-features.png)<br>![](images/03-select-role-services.png) | ![](images/07-wsus-content-location.png) |
+| ![](images/01-add-roles-and-features.png)<br>![](images/02-add-required-features.png) | ![](images/03-select-role-services.png) <br> ![](images/07-wsus-content-location.png) |
 
 After the installation finished, Windows required a short post-installation configuration. The post-installation tasks completed successfully.
 
