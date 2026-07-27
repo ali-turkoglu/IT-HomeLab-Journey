@@ -115,7 +115,7 @@ This confirms that the WSUS server is communicating correctly with Microsoft Upd
 
 | Initial Synchronization |
 |:-----------------------:|
-| ![](images/23-synchronizations-succeeded.png) |
+| ![](images/23-Synchronizations-Succeeded.png) |
 
 ---
 
