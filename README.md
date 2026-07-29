@@ -191,7 +191,7 @@ The next repository will focus on:
 
 ---
 
-# IT-HomeLab Series
+## IT-HomeLab Series
 
 This repository is the first project in my IT-HomeLab Series.
 
@@ -200,9 +200,8 @@ Each repository focuses on a different area of modern IT while staying connected
 | Status | Repository |
 |--------|------------|
 | ✅ | **IT-HomeLab-Windows-Infrastructure** *(Current Repository)* |
-| 🚧 | **IT-HomeLab-Cloud-Identity** |
+| 🚧 | [**IT-HomeLab-Cloud-Identity**](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity) |
 | ⏳ | **IT-HomeLab-Linux-Containers** |
-| ⏳ | **IT-HomeLab-Monitoring-Automation** |
 | ⏳ | **IT-HomeLab-Network-Security** |
 | ⏳ | **IT-HomeLab-Service-Management** |
 
