@@ -250,7 +250,7 @@ I configured SSH key authentication with an ED25519 key and hardened SSH by disa
 I worked with APT, dpkg, and systemd to install, remove, query, and manage software packages and services.
 
 ### ✅ Phase 6 – [Processes, Logs & Troubleshooting](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/6-Processes-Logs-Troubleshooting/README.md)
-I am currently working with Linux processes, CPU and memory usage, system logs, journalctl, service problems, and basic troubleshooting steps.
+I worked with Linux processes, CPU and memory usage, system logs, `journalctl`, service states, and basic troubleshooting. I also resolved a real Out-of-Memory issue caused by an unsuitable VM memory configuration.
 
 ### 🚧 Phase 7 – Linux Networking
 This phase will cover interfaces, IP addresses, routing, DNS, ports, connections, and Linux network troubleshooting.
