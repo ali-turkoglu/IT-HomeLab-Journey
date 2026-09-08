@@ -249,7 +249,7 @@ I configured SSH key authentication with an ED25519 key and hardened SSH by disa
 ### ✅ Phase 5 – [Package & Service Management](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/5-Package-Service-Management/README.md)
 I worked with APT, dpkg, and systemd to install, remove, query, and manage software packages and services.
 
-### ✅ Phase 6 – Processes, Logs & Troubleshooting(https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/6-Processes-Logs-Troubleshooting/README.md)
+### ✅ Phase 6 – [Processes, Logs & Troubleshooting](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/6-Processes-Logs-Troubleshooting/README.md)
 I am currently working with Linux processes, CPU and memory usage, system logs, journalctl, service problems, and basic troubleshooting steps.
 
 ### 🚧 Phase 7 – Linux Networking
