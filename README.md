@@ -252,10 +252,10 @@ I worked with APT, dpkg, and systemd to install, remove, query, and manage softw
 ### ✅ Phase 6 – [Processes, Logs & Troubleshooting](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/6-Processes-Logs-Troubleshooting/README.md)
 I worked with Linux processes, CPU and memory usage, system logs, `journalctl`, service states, and basic troubleshooting. I also resolved a real Out-of-Memory issue caused by an unsuitable VM memory configuration.
 
-### 🚧 Phase 7 – Linux Networking
+### ✅ Phase 7 – [Linux Networking](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/7-Linux-Networking/README.md)
 This phase will cover interfaces, IP addresses, routing, DNS, ports, connections, and Linux network troubleshooting.
 
-### ⏳ Phase 8 – WireGuard VPN & Secure Remote Access
+### 🚧 Phase 8 – WireGuard VPN & Secure Remote Access
 I will use the networking knowledge from Phase 7 to build secure remote access to the HomeLab with WireGuard. The work will include VPN keys, routing, IP forwarding, NAT, firewall rules, router port forwarding, and external testing.
 
 ### ⏳ Phase 9 – Active Directory Integration & Centralized Authentication
