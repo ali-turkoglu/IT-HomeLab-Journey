@@ -172,6 +172,9 @@ I joined Windows clients to the domain and used Group Policy to manage client se
 ### ✅ Phase 9 – [Active Directory Organization & File Sharing](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure/blob/main/docs/9-Active-Directory-Organization&Security-File-Sharing/README.md)
 I created an OU structure for users and computers and configured shared folders with controlled access permissions.
 
+### ✅ Phase 9b – [Secure File Transfer with FTPS](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure/blob/main/docs/9B-FTPS-Secure-File-Transfer/README.md)
+I added an FTPS service with TLS encryption, Active Directory access control, and secure remote access through WireGuard.
+
 ### ✅ Phase 10 – [Print Server Configuration](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure/blob/main/docs/10–Print-Server-Configuration/README.md)
 I configured a Windows Print Server to manage a network printer centrally.
 
