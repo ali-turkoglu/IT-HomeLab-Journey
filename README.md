@@ -256,12 +256,12 @@ I worked with APT, dpkg, and systemd to install, remove, query, and manage softw
 I worked with Linux processes, CPU and memory usage, system logs, `journalctl`, service states, and basic troubleshooting. I also resolved a real Out-of-Memory issue caused by an unsuitable VM memory configuration.
 
 ### ✅ Phase 7 – [Linux Networking](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/7-Linux-Networking/README.md)
-This phase will cover interfaces, IP addresses, routing, DNS, ports, connections, and Linux network troubleshooting.
+I worked with network interfaces, IP addressing, routing, DNS, listening ports, active connections, and basic Linux network troubleshooting.
 
-### 🚧 Phase 8 – WireGuard VPN & Secure Remote Access
-I will use the networking knowledge from Phase 7 to build secure remote access to the HomeLab with WireGuard. The work will include VPN keys, routing, IP forwarding, NAT, firewall rules, router port forwarding, and external testing.
+### ✅ Phase 8 – [WireGuard VPN & Secure Remote Access](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/8-WireGuard-VPN-Secure-Remote-Access/README.md)
+I configured WireGuard to provide secure remote access to the HomeLab. I worked with VPN keys, IP forwarding, routing, NAT, firewall rules, router port forwarding, Dynamic DNS, and external VPN testing.
 
-### ⏳ Phase 9 – Active Directory Integration & Centralized Authentication
+### 🚧 Phase 9 – Active Directory Integration & Centralized Authentication
 Ubuntu Server will join the existing Active Directory domain. I will test centralized login with AD users and groups and connect Linux access control with the existing company identity environment.
 
 ### ⏳ Phase 10 – Linux Security & Hardening
