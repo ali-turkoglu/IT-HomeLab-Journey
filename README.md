@@ -261,10 +261,10 @@ I worked with network interfaces, IP addressing, routing, DNS, listening ports, 
 ### ✅ Phase 8 – [WireGuard VPN & Secure Remote Access](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/8-WireGuard-VPN-Secure-Remote-Access/README.md)
 I configured WireGuard to provide secure remote access to the HomeLab. I worked with VPN keys, IP forwarding, routing, NAT, firewall rules, router port forwarding, Dynamic DNS, and external VPN testing.
 
-### 🚧 Phase 9 – Active Directory Integration & Centralized Authentication
-Ubuntu Server will join the existing Active Directory domain. I will test centralized login with AD users and groups and connect Linux access control with the existing company identity environment.
+### ✅ Phase 9 – [Active Directory Integration & Centralized Authentication](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/tree/main/docs/9-Active-Directory-Integration-Centralized-Authentication)
+Ubuntu Server joined the existing Active Directory domain. I tested centralized login with AD users and groups and connected Linux access control with the existing company identity environment.
 
-### ⏳ Phase 10 – Linux Security & Hardening
+### 🚧 Phase 10 – Linux Security & Hardening
 After the main Linux services and integrations are complete, I will review firewall rules, SSH settings, exposed services, authentication, updates, and least-privilege configuration.
 
 ---
