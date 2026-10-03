@@ -264,8 +264,8 @@ I configured WireGuard to provide secure remote access to the HomeLab. I worked 
 ### ✅ Phase 9 – [Active Directory Integration & Centralized Authentication](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/tree/main/docs/9-Active-Directory-Integration-Centralized-Authentication)
 Ubuntu Server joined the existing Active Directory domain. I tested centralized login with AD users and groups and connected Linux access control with the existing company identity environment.
 
-### 🚧 Phase 10 – Linux Security & Hardening
-After the main Linux services and integrations are complete, I will review firewall rules, SSH settings, exposed services, authentication, updates, and least-privilege configuration.
+### ✅ Phase 10 – [Linux Security & Hardening](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/tree/main/docs/10-Linux-Security-Hardening)
+After the main Linux services and integrations were complete, I reviewed firewall rules, SSH settings, exposed services, authentication, updates, and least-privilege configuration.
 
 ---
 
