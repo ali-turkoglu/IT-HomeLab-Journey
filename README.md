@@ -21,11 +21,11 @@ Each repository represents one part of this environment.
 |---|---|:---:|---|
 | **Part 1** | Windows Infrastructure | ✅ Completed | [IT-HomeLab-Windows-Infrastructure](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure) |
 | **Part 2** | Cloud Identity & Microsoft 365 | ✅ Completed | [IT-HomeLab-Cloud-Identity](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity) |
-| **Part 3** | Linux Administration | 🚧 In Progress | [IT-HomeLab-Linux-Administration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) |
-| **Part 4** | Docker & Containers | ⏳ Planned | Planned |
+| **Part 3** | Linux Administration | ✅ Completed | [IT-HomeLab-Linux-Administration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) |
+| **Part 4** | Docker & Containers | 🚧 In Progress | Planned |
 | **Part 5** | Linux Operations | ⏳ Planned | Planned |
 
-> **Current Focus:** Part 3 – Linux Administration / Phase 6 – Processes, Logs & Troubleshooting
+> **Current Focus:** Part 4 – Docker & Containers
 
 ---
 
@@ -233,9 +233,9 @@ I added Microsoft Intune to the environment and worked with cloud-based Windows 
 
 In the third part, I added Ubuntu Server to the existing HomeLab.
 
-My goal is to build a Linux server that is not isolated from the rest of the environment.
+I configured Ubuntu Server to work with the existing HomeLab, including Active Directory integration and secure remote access through WireGuard.
 
-Later, this server will become an **Active Directory member, Docker host, secure remote-access system, and Linux operations platform**.
+The next parts will focus on Docker, containers, and Linux operations.
 
 ### ✅ Phase 1 – [Ubuntu Server Installation & Base Configuration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/1-Ubuntu-Server-Installation-Base-Configuration/README.md)
 I installed Ubuntu Server on Proxmox and configured the hostname, static IP address, DNS, timezone, updates, and QEMU Guest Agent.
@@ -262,10 +262,10 @@ I worked with network interfaces, IP addressing, routing, DNS, listening ports, 
 I configured WireGuard to provide secure remote access to the HomeLab. I worked with VPN keys, IP forwarding, routing, NAT, firewall rules, router port forwarding, Dynamic DNS, and external VPN testing.
 
 ### ✅ Phase 9 – [Active Directory Integration & Centralized Authentication](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/tree/main/docs/9-Active-Directory-Integration-Centralized-Authentication)
-Ubuntu Server joined the existing Active Directory domain. I tested centralized login with AD users and groups and connected Linux access control with the existing company identity environment.
+I joined Ubuntu Server to the existing Active Directory domain, verified AD user and group resolution, and tested login access. I restricted Linux login access to an AD security group.
 
 ### ✅ Phase 10 – [Linux Security & Hardening](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/tree/main/docs/10-Linux-Security-Hardening)
-After the main Linux services and integrations were complete, I reviewed firewall rules, SSH settings, exposed services, authentication, updates, and least-privilege configuration.
+I reviewed listening ports, firewall rules, SSH settings, local sudo permissions, and automatic updates. I updated the server, disabled an unused service, and verified SSH and VPN access after reboot.
 
 ---
 
