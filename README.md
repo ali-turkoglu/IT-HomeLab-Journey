@@ -80,9 +80,9 @@ flowchart TB
     CONTAINERS --> LOGGING
 ```
 
-The HomeLab combines on-premises systems, cloud services, Linux, and containers.
+This diagram shows the current HomeLab and the planned Docker and Linux operations components.
 
-The long-term goal is to make these parts work together like a small company IT environment.
+The goal is to connect these systems in a small-company IT environment.
 
 ---
 
@@ -104,8 +104,11 @@ So far, I have worked with:
 - **SSH key-based remote administration**
 - **Linux package and service management**
 - **Linux processes, logs, and troubleshooting**
+- **WireGuard VPN and secure remote access**
+- **Active Directory integration for Linux with SSSD**
+- **Linux firewall and basic security checks**
 
-Planned topics include **WireGuard VPN, Active Directory integration for Linux, Docker, monitoring, backup validation, and Linux operations**.
+Planned topics include Docker, containers, monitoring, backup validation, and Linux operations.
 
 ---
 
@@ -126,10 +129,13 @@ Planned topics include **WireGuard VPN, Active Directory integration for Linux, 
 | Linux | Ubuntu Server, SSH, APT, dpkg, systemd |
 | Automation | PowerShell, Bash |
 | Version Control | Git, GitHub |
+| Remote Access | WireGuard VPN |
+| Linux Security | nftables, SSH key authentication |
+| Linux Identity | Active Directory integration with SSSD |
 
 ### Planned
 
-WireGuard · Docker · Docker Compose · Portainer · Monitoring · Alerting
+Docker · Docker Compose · Portainer · Monitoring · Alerting
 
 ---
 
@@ -272,7 +278,7 @@ I reviewed listening ports, firewall rules, SSH settings, local sudo permissions
 ## Part 4 – Docker & Containers
 
 > **Deploy & Manage**  
-> **Status:** ⏳ Planned
+> **Status:** 🚧 In Progress
 
 After completing the Linux administration foundation, I will start working with containers. The goal is to learn Docker step by step and later use it to run real services on the Ubuntu Server.
 
