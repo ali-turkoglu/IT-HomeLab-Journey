@@ -23,9 +23,12 @@ Each repository represents one part of this environment.
 | **Part 2** | Cloud Identity & Microsoft 365 | ✅ Completed | [IT-HomeLab-Cloud-Identity](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity) |
 | **Part 3** | Linux Administration | ✅ Completed | [IT-HomeLab-Linux-Administration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) |
 | **Part 4** | Docker & Containers | 🚧 In Progress | [IT-HomeLab-Docker-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers) |
+| **Related Project** | IT Support & Troubleshooting Lab | ⏳ Planned | IT-Support-Troubleshooting-Lab |
 | **Part 5** | Linux Operations | ⏳ Planned | Planned |
 
 > **Current Focus:** Part 4 – Docker & Containers
+>
+> **Next Practical Focus:** IT Support & Troubleshooting Lab, using GLPI and the existing HomeLab.
 
 ---
 
@@ -80,7 +83,7 @@ flowchart TB
     CONTAINERS --> LOGGING
 ```
 
-This diagram shows the current HomeLab and the planned Docker and Linux operations components.
+This diagram shows the current HomeLab, including Docker Engine, and the planned container services and Linux operations components.
 
 The goal is to connect these systems in a small-company IT environment.
 
@@ -108,7 +111,9 @@ So far, I have worked with:
 - **Active Directory integration for Linux with SSSD**
 - **Linux firewall and basic security checks**
 
-Planned topics include Docker, containers, monitoring, backup validation, and Linux operations.
+I also installed Docker Engine and the Compose plugin, tested an Nginx container, and resolved a container network problem.
+
+The next steps include container storage, networking, Compose, and GLPI deployment. After that, I will use the HomeLab for ticket-based support scenarios. Monitoring, backup validation, and deeper Linux operations remain planned.
 
 ---
 
@@ -132,10 +137,13 @@ Planned topics include Docker, containers, monitoring, backup validation, and Li
 | Remote Access | WireGuard VPN |
 | Linux Security | nftables, SSH key authentication |
 | Linux Identity | Active Directory integration with SSSD |
+| Containers | Docker Engine, Docker Compose plugin; Nginx tested in Phase 1 |
 
 ### Planned
 
-Docker · Docker Compose · Portainer · Monitoring · Alerting
+GLPI · MySQL · Monitoring · Alerting
+
+Docker Compose is installed; practical service configuration is planned in Part 4.
 
 ---
 
@@ -279,24 +287,49 @@ I reviewed listening ports, firewall rules, SSH settings, local sudo permissions
 
 > **Deploy & Manage**  
 > **Status:** 🚧 In Progress
+>  
+> Repository: [IT-HomeLab-Docker-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers)
 
-After completing the Linux administration foundation, I will start working with containers. The goal is to learn Docker step by step and later use it to run real services on the Ubuntu Server.
+In this part, I use the existing Ubuntu Server to work with Docker and container administration. The project covers persistent data, networking, Compose, and a GLPI ticket system for the support lab.
 
-### ⏳ Phase 1 – Docker Fundamentals & Installation
+### ✅ Phase 1 – [Docker Fundamentals, Installation & Container Basics](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/blob/main/docs/1-Docker-Fundamentals-Installation-Container-Basics/README.md)
+I installed Docker Engine and the Compose plugin, tested basic container commands, and ran an Nginx container. I resolved a container network problem and verified SSH, WireGuard access, and container connectivity after reboot.
 
-### ⏳ Phase 2 – Docker Storage & Container Data
+### 🚧 Phase 2 – Docker Storage & Container Data
+I am working on volumes, bind mounts, data persistence, and basic file permissions.
 
 ### ⏳ Phase 3 – Docker Networking
+I will work with container networks, name resolution, published ports, and access from the LAN and WireGuard.
 
 ### ⏳ Phase 4 – Docker Compose
+I will manage services through Compose files and work with configuration, environment variables, and container recreation.
 
-### ⏳ Phase 5 – Container Management with Portainer
+### ⏳ Phase 5 – GLPI Ticket System with Docker Compose
+I will deploy GLPI and MySQL with persistent storage, test a sample ticket, and verify basic backup and recovery. This will prepare the ticket system for the separate support project below.
 
-### ⏳ Phase 6 – Web Service Containers
+---
 
-### ⏳ Phase 7 – Database Containers
+## IT Support & Troubleshooting Lab
 
-### ⏳ Phase 8 – Real Multi-Container Application
+> **Investigate, Resolve & Document**  
+> **Status:** ⏳ Planned
+>  
+> Repository: **Coming Soon**
+
+After the GLPI setup in Part 4, I will use the existing HomeLab to practice common user and system support cases. The focus will move from installing services to investigating problems and verifying solutions.
+
+GLPI will record simulated incidents and service requests. Each case will be documented in a separate repository, with a ticket screenshot, relevant checks, the cause, the solution, and the final verification.
+
+Example scenarios include:
+
+- A user cannot access a shared folder.
+- A user account is locked or cannot sign in.
+- A client has a DNS or network connection problem.
+- A print job fails or a service stops unexpectedly.
+
+All cases will be clearly labelled as HomeLab simulations. I will use the existing Windows, Microsoft 365, Linux, and network environment, adding tools only when a scenario needs them.
+
+This project will be the next practical focus after Part 4. Completing Part 5 is not required to start the support scenarios.
 
 ---
 
@@ -372,6 +405,8 @@ I document not only successful configurations, but also testing, technical probl
 My long-term goal is to build and document a realistic small-company IT environment where I can practice:
 
 **planning → installation → configuration → integration → administration → security → monitoring → backup → recovery → troubleshooting**
+
+The next practical goal is to document complete support cases: **ticket → investigation → solution → verification → closure**.
 
 The project will continue to grow step by step, but the main focus will remain on **practical system administration, integration, and real troubleshooting experience**.
 
