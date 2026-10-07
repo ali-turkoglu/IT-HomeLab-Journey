@@ -22,7 +22,7 @@ Each repository represents one part of this environment.
 | **Part 1** | Windows Infrastructure | ✅ Completed | [IT-HomeLab-Windows-Infrastructure](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure) |
 | **Part 2** | Cloud Identity & Microsoft 365 | ✅ Completed | [IT-HomeLab-Cloud-Identity](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity) |
 | **Part 3** | Linux Administration | ✅ Completed | [IT-HomeLab-Linux-Administration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) |
-| **Part 4** | Docker & Containers | 🚧 In Progress | Planned |
+| **Part 4** | Docker & Containers | 🚧 In Progress | [IT-HomeLab-Docker-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers) |
 | **Part 5** | Linux Operations | ⏳ Planned | Planned |
 
 > **Current Focus:** Part 4 – Docker & Containers
