@@ -295,10 +295,10 @@ In this part, I use the existing Ubuntu Server to work with Docker and container
 ### ✅ Phase 1 – [Docker Fundamentals, Installation & Container Basics](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/blob/main/docs/1-Docker-Fundamentals-Installation-Container-Basics/README.md)
 I installed Docker Engine and the Compose plugin, tested basic container commands, and ran an Nginx container. I resolved a container network problem and verified SSH, WireGuard access, and container connectivity after reboot.
 
-### 🚧 Phase 2 – Docker Storage & Container Data
-I am working on volumes, bind mounts, data persistence, and basic file permissions.
+### ✅ Phase 2 – [Docker Persistent Storage & Portainer](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/tree/main/docs/2-Docker-Persistent-Storage-Portainer)
+I installed Portainer with persistent storage and accessed it through an SSH tunnel. I recreated the container and verified that the administrator account and settings were preserved.
 
-### ⏳ Phase 3 – Docker Networking
+### 🚧 Phase 3 – Docker Networking
 I will work with container networks, name resolution, published ports, and access from the LAN and WireGuard.
 
 ### ⏳ Phase 4 – Docker Compose
