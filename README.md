@@ -298,10 +298,10 @@ I installed Docker Engine and the Compose plugin, tested basic container command
 ### ✅ Phase 2 – [Docker Persistent Storage & Portainer](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/tree/main/docs/2-Docker-Persistent-Storage-Portainer)
 I installed Portainer with persistent storage and accessed it through an SSH tunnel. I recreated the container and verified that the administrator account and settings were preserved.
 
-### 🚧 Phase 3 – Docker Networking
-I will work with container networks, name resolution, published ports, and access from the LAN and WireGuard.
+### ✅ Phase 3 – [Docker Networking](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/blob/main/docs/3-Docker-Networking/README.md)
+I created a user-defined bridge network and tested container name resolution and published ports. I resolved a firewall forwarding issue and verified access from the LAN and through WireGuard, including after a server reboot.
 
-### ⏳ Phase 4 – Docker Compose
+### 🚧 Phase 4 – Docker Compose
 I will manage services through Compose files and work with configuration, environment variables, and container recreation.
 
 ### ⏳ Phase 5 – GLPI Ticket System with Docker Compose
