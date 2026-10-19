@@ -30,6 +30,8 @@ Each repository represents one part of this environment.
 >
 > **Next Practical Focus:** IT Support & Troubleshooting Lab, using GLPI and the existing HomeLab.
 
+***Explore the projects: Click on a repository name or a linked phase title to view the technical documentation, configurations, screenshots, and troubleshooting results.***
+
 ---
 
 ## Architecture
