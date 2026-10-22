@@ -303,10 +303,10 @@ I installed Portainer with persistent storage and accessed it through an SSH tun
 ### ✅ Phase 3 – [Docker Networking](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/blob/main/docs/3-Docker-Networking/README.md)
 I created a user-defined bridge network and tested container name resolution and published ports. I resolved a firewall forwarding issue and verified access from the LAN and through WireGuard, including after a server reboot.
 
-### 🚧 Phase 4 – Docker Compose
-I will manage services through Compose files and work with configuration, environment variables, and container recreation.
+### ✅ Phase 4 – [Docker Compose](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/blob/main/docs/4-Docker-Compose/README.md)
+I managed Nginx with a Compose file, used environment variables and a read-only bind mount, and tested service management and container recreation. I verified that the web content remained available and checked an HTTP 404 error through the logs.
 
-### ⏳ Phase 5 – GLPI Ticket System with Docker Compose
+### 🚧 Phase 5 – GLPI Ticket System with Docker Compose
 I will deploy GLPI and MySQL with persistent storage, test a sample ticket, and verify basic backup and recovery. This will prepare the ticket system for the separate support project below.
 
 ---
