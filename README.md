@@ -22,13 +22,13 @@ Each repository represents one part of this environment.
 | **Part 1** | Windows Infrastructure | ✅ Completed | [IT-HomeLab-Windows-Infrastructure](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure) |
 | **Part 2** | Cloud Identity & Microsoft 365 | ✅ Completed | [IT-HomeLab-Cloud-Identity](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity) |
 | **Part 3** | Linux Administration | ✅ Completed | [IT-HomeLab-Linux-Administration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) |
-| **Part 4** | Docker & Containers | 🚧 In Progress | [IT-HomeLab-Docker-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers) |
+| **Part 4** | Docker & Containers | ✅ Completed | [IT-HomeLab-Docker-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers) |
 | **Related Project** | IT Support & Troubleshooting Lab | ⏳ Planned | IT-Support-Troubleshooting-Lab |
 | **Part 5** | Linux Operations | ⏳ Planned | Planned |
 
-> **Current Focus:** Part 4 – Docker & Containers
->
-> **Next Practical Focus:** IT Support & Troubleshooting Lab, using GLPI and the existing HomeLab.
+> **Current Focus:** IT Support & Troubleshooting Lab (Planning)
+
+> **Next Practical Focus:** Ticket-based troubleshooting with GLPI and the existing HomeLab.
 
 ***Explore the projects: Click on a repository name or a linked phase title to view the technical documentation, configurations, screenshots, and troubleshooting results.***
 
@@ -39,30 +39,31 @@ Each repository represents one part of this environment.
 ```mermaid
 flowchart TB
 
-    PVE[Proxmox VE]
+    PVE["Proxmox VE"]
 
-    subgraph ONPREM[On-Premises Infrastructure]
-        WS[Windows Server]
-        AD[AD DS / DNS / DHCP / GPO]
-        CLIENTS[Windows Clients]
-        UBUNTU[Ubuntu Server]
+    subgraph ONPREM["On-Premises Infrastructure"]
+        WS["Windows Server"]
+        AD["AD DS / DNS / DHCP / GPO"]
+        CLIENTS["Windows Clients"]
+        UBUNTU["Ubuntu Server"]
     end
 
-    subgraph CLOUD[Cloud & Hybrid Identity]
-        ENTRA[Microsoft Entra ID]
-        M365[Microsoft 365]
-        INTUNE[Microsoft Intune]
+    subgraph CLOUD["Cloud & Hybrid Identity"]
+        ENTRA["Microsoft Entra ID"]
+        M365["Microsoft 365"]
+        INTUNE["Microsoft Intune"]
     end
 
-    subgraph SERVICES[Linux Services]
-        DOCKER[Docker Engine]
-        CONTAINERS[Web / Database / Services]
+    subgraph SERVICES["Linux & Container Services"]
+        DOCKER["Docker Engine"]
+        PORTAINER["Portainer"]
+        CONTAINERS["Nginx / GLPI / MySQL"]
     end
 
-    subgraph OPERATIONS[Operations]
-        BACKUP[Backup & Restore]
-        MONITORING[Monitoring]
-        LOGGING[Logging & Alerting]
+    subgraph OPERATIONS["Linux Operations - Planned"]
+        BACKUP["Backup & Recovery"]
+        MONITORING["Monitoring"]
+        LOGGING["Logging & Alerting"]
     end
 
     PVE --> WS
@@ -75,17 +76,18 @@ flowchart TB
     ENTRA --> M365
     ENTRA --> INTUNE
 
-    AD -. Centralized Authentication .-> UBUNTU
+    AD -.->|"Centralized Authentication"| UBUNTU
 
     UBUNTU --> DOCKER
     DOCKER --> CONTAINERS
+    PORTAINER -.->|"Container Management"| DOCKER
 
-    CONTAINERS --> BACKUP
-    CONTAINERS --> MONITORING
-    CONTAINERS --> LOGGING
+    CONTAINERS -.-> BACKUP
+    CONTAINERS -.-> MONITORING
+    CONTAINERS -.-> LOGGING
 ```
 
-This diagram shows the current HomeLab, including Docker Engine, and the planned container services and Linux operations components.
+This diagram shows the current HomeLab infrastructure, including Windows Server, Microsoft cloud services, Ubuntu Server, Docker, and containerized services. Monitoring, advanced backup, and Linux operations components are planned for future work.
 
 The goal is to connect these systems in a small-company IT environment.
 
@@ -113,9 +115,11 @@ So far, I have worked with:
 - **Active Directory integration for Linux with SSSD**
 - **Linux firewall and basic security checks**
 
-I also installed Docker Engine and the Compose plugin, tested an Nginx container, and resolved a container network problem.
+In Part 4, I installed Docker Engine and Portainer, worked with container storage and networking, and used Docker Compose to manage services.
 
-The next steps include container storage, networking, Compose, and GLPI deployment. After that, I will use the HomeLab for ticket-based support scenarios. Monitoring, backup validation, and deeper Linux operations remain planned.
+I deployed GLPI with MySQL, configured a ticket workflow, and tested data persistence, backups, and LAN/VPN access.
+
+The next practical project will focus on IT support and troubleshooting scenarios using GLPI. Monitoring, recovery testing, and advanced Linux operations remain planned.
 
 ---
 
@@ -139,13 +143,7 @@ The next steps include container storage, networking, Compose, and GLPI deployme
 | Remote Access | WireGuard VPN |
 | Linux Security | nftables, SSH key authentication |
 | Linux Identity | Active Directory integration with SSSD |
-| Containers | Docker Engine, Docker Compose plugin; Nginx tested in Phase 1 |
-
-### Planned
-
-GLPI · MySQL · Monitoring · Alerting
-
-Docker Compose is installed; practical service configuration is planned in Part 4.
+| Containers | Docker Engine, Docker Compose, Portainer, Nginx, GLPI, MySQL |
 
 ---
 
@@ -177,7 +175,7 @@ I deployed Windows Server as the main server system for the on-premises infrastr
 I configured the server name, network settings, updates, and other basic settings before installing server roles.
 
 ### ✅ Phase 6 – [Active Directory Domain Services](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure/blob/main/docs/6-Active-Directory-Domain-Services/README.md)
-I installed Active Directory Domain Services and created the **homelab.local** domain. The server became the central identity and authentication system of the HomeLab.
+I installed Active Directory Domain Services and created a local AD domain. The server became the central identity and authentication system of the HomeLab.
 
 ### ✅ Phase 7 – [DNS & DHCP](https://github.com/ali-turkoglu/IT-HomeLab-Windows-Infrastructure/blob/main/docs/7-DNS-DHCP/README.md)
 I configured DNS and DHCP to provide central name resolution and IP address management for the network.
@@ -228,7 +226,7 @@ I added basic identity-security controls, including MFA and an emergency adminis
 I installed the Microsoft Entra Provisioning Agent and synchronized Active Directory users to Microsoft Entra ID with Password Hash Synchronization.
 
 ### ✅ Phase 17 – [Exchange Online Administration](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity/blob/main/docs/17-Exchange-Online-Administration/README.md)
-I worked with Exchange Online and tested cloud-based email administration inside the Microsoft 365 environment.
+I configured a shared mailbox with Full Access and Send As permissions, created a distribution list, and tested internal and external email delivery. I also used Message Trace and reviewed Microsoft Defender Quarantine for troubleshooting.
 
 ### ✅ Phase 18 – [Cloud File Services](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity/blob/main/docs/18–Cloud-File-Services/README.md)
 I used SharePoint and OneDrive for document libraries, permissions, versioning, and secure file sharing.
@@ -288,11 +286,10 @@ I reviewed listening ports, firewall rules, SSH settings, local sudo permissions
 ## Part 4 – Docker & Containers
 
 > **Deploy & Manage**  
-> **Status:** 🚧 In Progress
 >  
 > Repository: [IT-HomeLab-Docker-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers)
 
-In this part, I use the existing Ubuntu Server to work with Docker and container administration. The project covers persistent data, networking, Compose, and a GLPI ticket system for the support lab.
+In this part, I used the existing Ubuntu Server to work with Docker and container administration. The project covered persistent storage, networking, Docker Compose, Portainer, and a GLPI ticket system for the support lab.
 
 ### ✅ Phase 1 – [Docker Fundamentals, Installation & Container Basics](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/blob/main/docs/1-Docker-Fundamentals-Installation-Container-Basics/README.md)
 I installed Docker Engine and the Compose plugin, tested basic container commands, and ran an Nginx container. I resolved a container network problem and verified SSH, WireGuard access, and container connectivity after reboot.
@@ -306,8 +303,8 @@ I created a user-defined bridge network and tested container name resolution and
 ### ✅ Phase 4 – [Docker Compose](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/blob/main/docs/4-Docker-Compose/README.md)
 I managed Nginx with a Compose file, used environment variables and a read-only bind mount, and tested service management and container recreation. I verified that the web content remained available and checked an HTTP 404 error through the logs.
 
-### 🚧 Phase 5 – GLPI Ticket System with Docker Compose
-I will deploy GLPI and MySQL with persistent storage, test a sample ticket, and verify basic backup and recovery. This will prepare the ticket system for the separate support project below.
+### ✅ Phase 5 – [GLPI Ticket System with Docker Compose](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers/blob/main/docs/5-GLPI-Ticket-System-with-Docker-Compose/README.md)
+I deployed GLPI and MySQL using Docker Compose and Portainer. I configured requester and technician accounts, tested a simulated ticket workflow, and verified data persistence, backups, and LAN/VPN access.
 
 ---
 
