@@ -23,8 +23,8 @@ Each repository represents one part of this environment.
 | **Part 2** | Cloud Identity & Microsoft 365 | ✅ Completed | [IT-HomeLab-Cloud-Identity](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity) |
 | **Part 3** | Linux Administration | ✅ Completed | [IT-HomeLab-Linux-Administration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) |
 | **Part 4** | Docker & Containers | ✅ Completed | [IT-HomeLab-Docker-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers) |
-| **Related Project** | IT Support & Troubleshooting Lab | ⏳ Planned | IT-Support-Troubleshooting-Lab |
-| **Part 5** | Linux Operations | ⏳ Planned | Planned |
+| **Part 5** | IT Support & Troubleshooting Lab | ⏳ Planned | Repository coming soon |
+| **Part 6** | Linux Operations | ⏳ Planned | Repository not created yet |
 
 > **Current Focus:** IT Support & Troubleshooting Lab (Planning)
 
@@ -249,7 +249,7 @@ In the third part, I added Ubuntu Server to the existing HomeLab.
 
 I configured Ubuntu Server to work with the existing HomeLab, including Active Directory integration and secure remote access through WireGuard.
 
-The next parts will focus on Docker, containers, and Linux operations.
+Part 4 covers Docker and containers. Part 5 will use the connected HomeLab for ticket-based support scenarios, followed by Linux Operations in Part 6.
 
 ### ✅ Phase 1 – [Ubuntu Server Installation & Base Configuration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration/blob/main/docs/1-Ubuntu-Server-Installation-Base-Configuration/README.md)
 I installed Ubuntu Server on Proxmox and configured the hostname, static IP address, DNS, timezone, updates, and QEMU Guest Agent.
@@ -308,31 +308,39 @@ I deployed GLPI and MySQL using Docker Compose and Portainer. I configured reque
 
 ---
 
-## IT Support & Troubleshooting Lab
+## Part 5 – IT Support & Troubleshooting Lab
 
 > **Investigate, Resolve & Document**  
 > **Status:** ⏳ Planned
->  
+>
 > Repository: **Coming Soon**
 
-After the GLPI setup in Part 4, I will use the existing HomeLab to practice common user and system support cases. The focus will move from installing services to investigating problems and verifying solutions.
+After deploying GLPI in Part 4, I will use the connected HomeLab to practice common IT support and system administration cases. The focus will move from installing services to investigating problems, resolving incidents, and verifying results.
 
-GLPI will record simulated incidents and service requests. Each case will be documented in a separate repository, with a ticket screenshot, relevant checks, the cause, the solution, and the final verification.
+GLPI will record simulated incidents and service requests, including user communication, investigation notes, solutions, and closure.
+
+All cases will be documented in one dedicated GitHub repository, with a separate page for each case. Each page will include the reported issue, relevant diagnostic checks, findings, the solution, final verification, and selected screenshots.
 
 Example scenarios include:
 
 - A user cannot access a shared folder.
 - A user account is locked or cannot sign in.
 - A client has a DNS or network connection problem.
+- A Group Policy setting is not applied.
+- A user experiences a Microsoft 365 access problem.
 - A print job fails or a service stops unexpectedly.
 
-All cases will be clearly labelled as HomeLab simulations. I will use the existing Windows, Microsoft 365, Linux, and network environment, adding tools only when a scenario needs them.
+The repository overview and case summaries will be in English. Detailed case documentation and GLPI ticket notes will be in German to practice technical documentation and user communication for the German workplace.
 
-This project will be the next practical focus after Part 4. Completing Part 5 is not required to start the support scenarios.
+All cases will be clearly labelled as HomeLab simulations. I will use the existing Windows, Microsoft 365, Linux, and network environment, adding tools only when a scenario requires them.
+
+Scenarios will be selected according to common responsibilities in IT support and system administration roles, with particular attention to requirements found in the job advertisements I apply to.
+
+This project is Part 5 of the IT-HomeLab Series. Part 6 – Linux Operations remains planned for later.
 
 ---
 
-## Part 5 – Linux Operations
+## Part 6 – Linux Operations
 
 > **Operate & Maintain**  
 > **Status:** ⏳ Planned
