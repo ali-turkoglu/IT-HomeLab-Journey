@@ -23,7 +23,7 @@ Each repository represents one part of this environment.
 | **Part 2** | Cloud Identity & Microsoft 365 | ✅ Completed | [IT-HomeLab-Cloud-Identity](https://github.com/ali-turkoglu/IT-HomeLab-Cloud-Identity) |
 | **Part 3** | Linux Administration | ✅ Completed | [IT-HomeLab-Linux-Administration](https://github.com/ali-turkoglu/IT-HomeLab-Linux-Administration) |
 | **Part 4** | Docker & Containers | ✅ Completed | [IT-HomeLab-Docker-Containers](https://github.com/ali-turkoglu/IT-HomeLab-Docker-Containers) |
-| **Part 5** | IT Support & Troubleshooting Lab | ⏳ Planned | Repository coming soon |
+| **Part 5** | IT Support & Troubleshooting Lab | 🚧 In Progress | [IT Support & Troubleshooting](https://github.com/ali-turkoglu/IT-HomeLab-Support-Troubleshooting) |
 | **Part 6** | Linux Operations | ⏳ Planned | Repository not created yet |
 
 > **Current Focus:** IT Support & Troubleshooting Lab (Planning)
@@ -311,13 +311,20 @@ I deployed GLPI and MySQL using Docker Compose and Portainer. I configured reque
 ## Part 5 – IT Support & Troubleshooting Lab
 
 > **Investigate, Resolve & Document**  
-> **Status:** ⏳ Planned
+> **Status:** 🚧 In Progress
 >
-> Repository: **Coming Soon**
+> Repository: [IT Support & Troubleshooting](https://github.com/ali-turkoglu/IT-HomeLab-Support-Troubleshooting)
 
-After deploying GLPI in Part 4, I will use the connected HomeLab to practice common IT support and system administration cases. The focus will move from installing services to investigating problems, resolving incidents, and verifying results.
+I will use my HomeLab environment to investigate common IT incidents, resolve technical issues, and document practical troubleshooting cases. I will also include IT administration tasks, such as centralized VPN deployment and device management.
 
-GLPI will record simulated incidents and service requests, including user communication, investigation notes, solutions, and closure.
+Administration tasks may include:
+
+- Centralized VPN deployment using Intune or Group Policy.
+- Software deployment and configuration.
+- Network drive and printer deployment.
+- Device management and security policies.
+
+I use GLPI to manage simulated incidents and service requests, including user communication, investigation notes, solutions, and ticket closure.
 
 All cases will be documented in one dedicated GitHub repository, with a separate page for each case. Each page will include the reported issue, relevant diagnostic checks, findings, the solution, final verification, and selected screenshots.
 
